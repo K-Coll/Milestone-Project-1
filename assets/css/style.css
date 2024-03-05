@@ -16,7 +16,7 @@ body {
     color: #174634;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h5 {
     font-family: Rubik, sans-serif;
     font-weight: 400;
     text-align: center;
@@ -80,6 +80,11 @@ h1, h2, h3, h4, h5 {
     position: absolute;
     background-color: rgb(87, 181, 150, .3);
     /* --------------------- Opacity level for hero text overlay */
+}
+
+/* --------------------- FAQ Main Homepage */
+.questions h1 {
+    text-align: left;
 }
 
 /* --------------------- Footer - Rose Resume */
