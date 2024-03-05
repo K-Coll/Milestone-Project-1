@@ -115,3 +115,12 @@ footer a:hover {
     text-align: center;
     color: #F5F5F5;
 }
+
+.social-links li a i {
+    width: 64px;
+    height: 64px;
+    padding: 12, 0;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
