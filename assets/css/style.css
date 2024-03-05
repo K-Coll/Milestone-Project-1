@@ -89,6 +89,13 @@ h1, h2, h3, h5 {
     background: url("../images/children-camp-playground-min.jpg") no-repeat left center/cover;
 }
 
+#campsite-hero-container {
+    height: 450px;
+    width: 100%;
+    clear: both;
+    position: relative;
+}
+
 /* --------------------- FAQ Main Homepage */
 .questions h1 {
     text-align: left;
