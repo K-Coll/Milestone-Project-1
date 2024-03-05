@@ -11,3 +11,25 @@ Lightest - #FFFFFF - white
 Rubik is used for titles and headings, while Nunito Sans is used for sub-headings, buttons and paragraph text. Caveat is used for the Contact Us link.
 --------------------- Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* --------------------- Bootstrap Nav Bar */
+.navbar-brand {
+    font-size: 200%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.active {
+    color: #57B596;
+    font-weight: 800;
+}
+
+.nav-item {
+    font-size: 130%;
+    padding: 2px;
+}
+
+.nav-item a:hover {
+    color: #57B596 !important;
+    font-weight: 500;
+}
