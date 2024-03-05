@@ -12,6 +12,20 @@ Rubik is used for titles and headings, while Nunito Sans is used for sub-heading
 --------------------- Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+/* --------------------- Global Styles */
+body {
+    background-color: #D3D3E7 !important;
+    font-family: 'Nunito Sans' sans-serif;
+    color: #4E566E;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Rubik, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+}
+
 /* --------------------- Bootstrap Nav Bar */
 .navbar-brand {
     font-size: 200%;
