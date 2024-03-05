@@ -33,3 +33,40 @@ Rubik is used for titles and headings, while Nunito Sans is used for sub-heading
     color: #57B596 !important;
     font-weight: 500;
 }
+
+/* --------------------- Hero image and text overlay - adapted from love running -- main homepage  */
+#hero-img {
+    height: 450px;
+    width: 100%;
+    background-color: url(../images/high-angle-view-trees-beach-camp.jpg) no-repeat left center/cover;
+}
+
+#hero-container {
+    height: 450px;
+    width: 100%;
+    clear: both;
+    position: relative;
+}
+
+#hero-text-overlay, hero-text-overlay h2 {
+    color: #FFFFFF;
+}
+
+#hero-text-overlay {
+    font-size: 70%;
+    font-family: Rubik, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 60px;
+    left: 60px;
+    position: absolute;
+    background-color: rgb(87, 181, 150, .3);
+    /* --------------------- Opacity level for hero text overlay */
+}
