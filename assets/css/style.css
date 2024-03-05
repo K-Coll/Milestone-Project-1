@@ -82,6 +82,13 @@ h1, h2, h3, h5 {
     /* --------------------- Opacity level for hero text overlay */
 }
 
+/* --------------------- Hero image and text overlay - adapted from love running -- campsite page  */
+#campsite-hero-img {
+    height: 450px;
+    width: 100%;
+    background: url("../images/children-camp-playground-min.jpg") no-repeat left center/cover;
+}
+
 /* --------------------- FAQ Main Homepage */
 .questions h1 {
     text-align: left;
