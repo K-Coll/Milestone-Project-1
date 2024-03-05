@@ -81,3 +81,11 @@ h1, h2, h3, h4, h5 {
     background-color: rgb(87, 181, 150, .3);
     /* --------------------- Opacity level for hero text overlay */
 }
+
+/* --------------------- Footer - some styling adapted from Rosie Resume  */
+.footer container {
+    background-color: #174634;
+    flex-direction: row;
+    min-height: 60px;
+    text-align: center;
+}
