@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5 {
 /* --------------------- Footer - Rose Resume */
 
 .footer-container {
-    background-color: #282F42;
+    background-color: #174634;
     flex-direction: row;
     min-height: 60px;
     text-align: center;
@@ -105,7 +105,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #57B596;
+    color: #7ceaf4;
 }
 
 .social-links li {
@@ -117,9 +117,9 @@ footer a:hover {
 }
 
 .social-links li a i {
-    width: 64px;
-    height: 64px;
-    padding: 12, 0;
+    width: 62px;
+    height: 62px;
+    padding: 6, 0;
     font-size: 30px;
     text-align: center;
     justify-content: center;
