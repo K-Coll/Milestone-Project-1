@@ -1,0 +1,13 @@
+/* --------------------- Colour Palette 
+Brand - #57B596 - mint green
+Darkest - #282F42 - space cadet - dark bluey / black
+Dark - #4E566E - payne's grey - bluey grey
+Mild - #9A9AB0 - cool grey - light bluey grey
+Light - #D3D3E7 - lavendar - light purpleish
+Lightest - #FFFFFF - white
+--------------------- Colour Palette */
+
+/* --------------------- Google Fonts
+Rubik is used for titles and headings, while Nunito Sans is used for sub-headings, buttons and paragraph text. Caveat is used for the Contact Us link.
+--------------------- Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
