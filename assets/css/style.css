@@ -1,10 +1,7 @@
 /* --------------------- Colour Palette 
-Brand - #57B596 - mint green
-Darkest - #282F42 - space cadet - dark bluey / black
-Dark - #4E566E - payne's grey - bluey grey
-Mild - #9A9AB0 - cool grey - light bluey grey
-Light - #D3D3E7 - lavendar - light purpleish
-Lightest - #FFFFFF - white
+dark colour - #174634
+light colour - #F5F5F5
+brand colour - #f1b24a or #d77457
 --------------------- Colour Palette */
 
 /* --------------------- Google Fonts
@@ -14,9 +11,9 @@ Rubik is used for titles and headings, while Nunito Sans is used for sub-heading
 
 /* --------------------- Global Styles */
 body {
-    background-color: #D3D3E7 !important;
+    background-color: #f5f5f5 !important;
     font-family: 'Nunito Sans' sans-serif;
-    color: #4E566E;
+    color: #174634;
 }
 
 h1, h2, h3, h4, h5 {
