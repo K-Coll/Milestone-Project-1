@@ -112,10 +112,9 @@ h1, h2, h3, h5 {
 }
 
 /* --------------------- Contact Form */
-.contact-heading {
+.form-intro-text {
     margin-top: 25px;
     margin-bottom: 20px;
-
 }
 
 .center-form {
