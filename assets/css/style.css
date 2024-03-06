@@ -121,7 +121,16 @@ h1, h2, h3, h5 {
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #57B596;
+    border: none;
+    font-size: 120%;
 }
 
 /* --------------------- Footer - adapted from https://www.youtube.com/watch?v=X3K5KCRYtRk */
@@ -163,4 +172,15 @@ footer a:link{
 footer a:hover{
     color: #7ceaf4;
     text-decoration: none;
+}
+
+/* --------------------- Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
