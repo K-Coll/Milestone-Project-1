@@ -113,7 +113,7 @@ h1, h2, h3, h5 {
 
 /* --------------------- Contact Form */
 .form-intro-text {
-    margin-top: 25px;
+    margin-top: 45px;
     margin-bottom: 20px;
 }
 
@@ -124,8 +124,8 @@ h1, h2, h3, h5 {
 }
 
 button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 35px;
+    margin-bottom: 60px;
     color: #fafafa;
     background-color: #57B596;
     border: none;
