@@ -101,6 +101,16 @@ h1, h2, h3, h5 {
     text-align: left;
 }
 
+/* --------------------- Local Area Page - Introduction & Main Body */
+.area-intro {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.area-main-body {
+    padding-bottom: 40px;
+}
+
 /* --------------------- Footer - adapted from https://www.youtube.com/watch?v=X3K5KCRYtRk */
 .footer-body {
     background-color: #174634;
