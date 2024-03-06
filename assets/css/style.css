@@ -113,6 +113,53 @@ h1, h2, h3, h5 {
     text-align: left;
 }
 
+/* --------------------- Campsite Page - Facilities section */
+.facilities {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+/* --------------------- Campsite Page - Pitches section Boostrap credit https://www.youtube.com/watch?v=-A_HESNP1T8 */
+ .pitches-body {
+    width: 100%;
+    display: grid;
+    place-items: center; 
+}
+
+.row-pitches {
+    width: 80%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 30px;
+}
+
+.row-pitches .left {
+    overflow: hidden;
+
+}
+
+.row-pitches .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.row-pitches .right {
+    display: flex;
+    align-items: center;
+}
+
+.row-pitches .right .pitches-content {
+    padding-left: 20px;
+
+}
+
+.row-pitches .right .pitches-content p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 15px;
+}
 
 
 /* --------------------- Local Area Page - Introduction & Main Body */
