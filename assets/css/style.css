@@ -98,7 +98,7 @@ h1, h2, h3, h5 {
     position: relative;
 }
 
-/* --------------------- Main Homepage - About US */
+/* --------------------- Main Homepage - About Us */
 .about {
         padding-top: 40px;
         padding-bottom: 20px;
@@ -124,6 +124,11 @@ h1, h2, h3, h5 {
     width: 100%;
     display: grid;
     place-items: center; 
+    padding-bottom: 40px;
+}
+
+.pitches-body h1 {
+    padding-bottom: 10px;
 }
 
 .row-pitches {
