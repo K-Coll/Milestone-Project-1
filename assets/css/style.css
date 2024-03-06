@@ -1,7 +1,8 @@
 /* --------------------- Colour Palette 
-dark colour - #174634
-light colour - #F5F5F5
-brand colour - #f1b24a or #d77457
+Dark: brunswick green - #174634
+Light: mint green - #57B596
+Light: - white smoke - #F8F8F8
+Light: white - #FFFFFF
 --------------------- Colour Palette */
 
 /* --------------------- Google Fonts
@@ -142,7 +143,7 @@ input[type="radio"] {
 button[type="submit"] {
     margin-top: 35px;
     margin-bottom: 60px;
-    color: #fafafa;
+    color: #f8f8f8;
     background-color: #57B596;
     border: none;
     font-size: 120%;
@@ -153,13 +154,13 @@ button[type="submit"] {
 .footer-body {
     background-color: #174634;
     text-align: center;
-    color: #fafafa;
+    color: #f8f8f8;
 }
 
 .footer-links {
     padding-top: 20px;
     padding-bottom: 10px;
-    color: #fafafa;
+    color: #f8f8f8;
     text-decoration: none;
 }
 
@@ -175,12 +176,12 @@ button[type="submit"] {
 
 footer a {
     text-decoration: none;
-    color: #fafafa;
+    color: #f8f8f8;
     padding-left: 5px;
 }
 
 footer a:link{
-    color: #fafafa;
+    color: #f8f8f8;
     text-decoration: none;
     padding: 20px;
 }
