@@ -97,9 +97,15 @@ h1, h2, h3, h5 {
 }
 
 /* --------------------- FAQ Main Homepage */
+.questions {
+    padding-bottom: 40px;
+}
+
 .questions h1 {
     text-align: left;
 }
+
+
 
 /* --------------------- Local Area Page - Introduction & Main Body */
 .area-intro {
