@@ -96,7 +96,13 @@ h1, h2, h3, h5 {
     position: relative;
 }
 
-/* --------------------- FAQ Main Homepage */
+/* --------------------- Main Homepage - About US */
+.about {
+        padding-top: 40px;
+        padding-bottom: 20px;
+}
+
+/* --------------------- Main Homepage - FAQ */
 .questions {
     padding-bottom: 40px;
 }
