@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
-    <!-- Nav Bar -->
+<!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Oakwood Cove</a>
@@ -38,6 +38,56 @@
           </div>
         </div>
       </nav>
+<!-- Contact Us Form - adapted from Rosie Resume -->
+<section class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <h3 class="contact-heading text-center">We would love to hear from you!</h3>
+            <h5 class="text-center">If you would like to provide feedback, make a general enquiry or ask about availability - please use the form below. In order for us to answer your query in full, please provide as much information as you can. We will respond to your query as soon as possible</h5>
+            <br>
+            <div class="center-form">
+                <form id="contact-form" aria-label="A contact form to submit an enquiry" method="POST" action="https://formdump.codeinstitute.net">
+                    <input type="text" name="First Name" id="fname" class="form-control" placeholder="First Name" required>
+                    <input type="text" name="Last Name" id="lname" class="form-control" placeholder="Last Name" required>
+                    <input type="text" name="Email" id="emailaddress" class="form-control" placeholder="Email Address" required>
+                    <br>
+                    <div>
+                        <p>Type of Enquiry</p>
+                            <input id="general-enquiry" name="type-of-enquiry" value="general-enquiry" type="radio">
+                            <label for="general-enquiry">General Enquiry</label>
+                        
+                            <input id="book-availability" name="type-of-enquiry" value="book-availability" type="radio">
+                            <label for="book-availability">To Book / Discuss Availability</label>
+                        
+                            <input id="both" name="type-of-enquiry" value="both" type="radio">
+                            <label for="both">Both</label>
+                    </div>
+                    <br>
+                    <textarea rows="12" name="Enquiry" id="enquiry" class="form-control" placeholder="Enquiry description" required></textarea>
+        
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button type="submit" class="btn btn-secondary">Send</button>
+                        </div>
+                    </div> 
+                </form>
 
+            </div>
+        </div>
+    </div>
 
+</section>
+<!-- Footer - adapted from https://www.youtube.com/watch?v=X3K5KCRYtRk -->
+<footer class="footer-body">
+    <div class="container footer-links">
+        <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook fa-lg mr-md-5 mr-3"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter fa-lg mr-md-5 mr-3"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram fa-lg mr-md-5 mr-3"></i></a>
+    </div>
+    <div class="footer-contact">
+        <p>
+          <a href="contact.html">Submit an Enquiry</a>
+        </p>
+    </div>
+  </footer>
 </body>
