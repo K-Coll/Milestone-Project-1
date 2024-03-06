@@ -1,6 +1,7 @@
 /* --------------------- Colour Palette 
 Dark: brunswick green - #174634
 Light: mint green - #57B596
+Light: green yellow - #BEF264
 Light: - white smoke - #F8F8F8
 Light: white - #FFFFFF
 --------------------- Colour Palette */
@@ -187,8 +188,9 @@ footer a:link{
 }
 
 footer a:hover{
-    color: #7ceaf4;
+    color: #BEF264;
     text-decoration: none;
+    font-size: 110%;
 }
 
 /* --------------------- Media Queries */
