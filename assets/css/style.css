@@ -123,7 +123,7 @@ h1, h2, h3, h5 {
     max-width: 70%;
 }
 
-input[type="radio"]{
+input[type="radio"] {
     margin: 0 10px 0 10px;
   }
 
@@ -187,4 +187,10 @@ footer a:hover{
         margin: 0 auto;
         max-width: 50%;
     }
+}
+
+@media(min-width: 320px) {
+    input[type="radio"]{
+        margin: 0;
+      }
 }
