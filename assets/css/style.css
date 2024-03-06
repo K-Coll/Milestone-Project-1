@@ -123,6 +123,10 @@ h1, h2, h3, h5 {
     max-width: 70%;
 }
 
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+  }
+
 button[type="submit"] {
     margin-top: 35px;
     margin-bottom: 60px;
@@ -131,6 +135,7 @@ button[type="submit"] {
     border: none;
     font-size: 120%;
 }
+
 
 /* --------------------- Footer - adapted from https://www.youtube.com/watch?v=X3K5KCRYtRk */
 .footer-body {
