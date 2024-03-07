@@ -186,6 +186,10 @@ h1, h2, h3, h5 {
     padding-bottom: 40px;
 }
 
+.card-title {
+    font-size: 130%;
+}
+
 /* --------------------- Contact Form */
 .form-intro-text {
     margin-top: 45px;
