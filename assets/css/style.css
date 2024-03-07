@@ -204,8 +204,8 @@ button[type="submit"] {
     color: #f8f8f8;
     background-color: #174634;
     border: none;
-    font-family: Caveat, sans-serif;
-    font-size: 150%;
+    font-family: Kalam, sans-serif;
+    font-size: 120%;
 }
 
 
@@ -226,10 +226,11 @@ button[type="submit"] {
 .footer-contact {
     padding: 2px 0;
     background-color: #174634;
-    font-family: Caveat, sans-serif;
+    font-family: Kalam, sans-serif;
     justify-content: center;
     text-align: center;
-    font-size: 28px;
+    font-size: 22px;
+    font-weight: 200;
     color: #fafafa;
 }
 
