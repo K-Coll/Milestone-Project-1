@@ -199,7 +199,8 @@ button[type="submit"] {
     color: #f8f8f8;
     background-color: #174634;
     border: none;
-    font-size: 120%;
+    font-family: Caveat, sans-serif;
+    font-size: 150%;
 }
 
 
