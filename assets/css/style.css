@@ -247,9 +247,8 @@ footer a:link{
 }
 
 footer a:hover{
-    color: #BEF264;
+    color: #57B596;
     text-decoration: none;
-    font-size: 110%;
 }
 
 /* --------------------- Media Queries */
