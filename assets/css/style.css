@@ -46,6 +46,18 @@ hr {
     width: 90%;
 }
 
+#hr-contact {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 2em;
+    border-width: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #57B596;
+    border-style: solid;
+    width: 90%;  
+}
+
 /* --------------------- Bootstrap Nav Bar */
  .navbar-brand {
     font-family: Kalam, sans-serif;
@@ -213,16 +225,16 @@ hr {
     font-size: 130%;
 }
 
-/* --------------------- Contact Form */
-.form-intro-text {
-    margin-top: 45px;
+/* --------------------- FAQ and Contact Form */
+.contact-intro-text {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.center-form {
+.contact-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 90%;
 }
 
 input[type="radio"] {
@@ -232,11 +244,15 @@ input[type="radio"] {
 button[type="submit"] {
     margin-top: 35px;
     margin-bottom: 60px;
-    color: #f8f8f8;
+    color: #F8F8F8;
     background-color: #174634;
     border: none;
     font-family: Kalam, sans-serif;
     font-size: 120%;
+}
+
+.accordion-item {
+    margin-bottom: 2em;
 }
 
 
@@ -299,5 +315,11 @@ footer a:hover{
     .row-pitches {
         width: 90%;
         grid-template-columns: 1fr;
+    }
+}
+
+@media(min-width: 768px) {
+    #hr-contact {
+    display: none;
     }
 }
