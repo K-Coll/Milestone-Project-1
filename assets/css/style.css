@@ -115,6 +115,10 @@ h1, h2, h3, h5 {
     color: #174634;
 }
 
+.general-info a:hover {
+    text-align: none;
+    color: #57B596;
+}
 /* --------------------- Campsite Page - Facilities section */
 .facilities {
     padding-top: 40px;
