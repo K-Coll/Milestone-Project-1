@@ -110,12 +110,9 @@ h1, h2, h3, h5 {
 }
 
 /* --------------------- Main Homepage - FAQ */
-.questions {
-    padding-bottom: 40px;
-}
-
-.questions h1 {
-    text-align: left;
+.general-info a {
+    text-decoration: none;
+    color: #174634;
 }
 
 /* --------------------- Campsite Page - Facilities section */
