@@ -254,12 +254,15 @@ button[type="submit"] {
     margin-top: 35px;
     margin-bottom: 60px;
     color: #F8F8F8;
-    background-color: #174634;
+    background-color: #57B596;
     border: none;
     font-family: Kalam, sans-serif;
     font-size: 120%;
 }
 
+button:hover {
+    background-color: #57B596; 
+}
 .accordion-item {
     margin-bottom: 2em;
 }
@@ -297,7 +300,6 @@ button[type="submit"] {
 footer a {
     text-decoration: none;
     color: #f8f8f8;
-    padding-left: 5px;
     padding: 20px;
 }
 
