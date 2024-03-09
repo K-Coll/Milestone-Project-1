@@ -25,6 +25,15 @@ h1, h2, h3, h5 {
     margin: 0;
 }
 
+#hr-nav {
+    display: block;
+    margin-top: 0;
+    border-width: 0.2em;
+    color: #57B596;
+    border-style: solid;
+    width: 100%;
+}
+
 /* --------------------- Bootstrap Nav Bar */
  .navbar-brand {
     font-family: Kalam, sans-serif;
