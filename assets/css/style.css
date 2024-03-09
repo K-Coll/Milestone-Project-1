@@ -227,6 +227,7 @@ hr {
 
 .card-title {
     font-size: 130%;
+    text-decoration: underline;
 }
 
 /* --------------------- Contact Page - FAQ and Contact Form section */
