@@ -56,40 +56,33 @@
 
       </div>
       <div class="col">
-        
+        <div class="center-form">
+          <form id="contact-form" aria-label="A contact form to submit an enquiry" method="POST" action="https://formdump.codeinstitute.net">
+              <input type="text" name="First Name" id="fname" class="form-control" placeholder="First Name" required>
+              <input type="text" name="Last Name" id="lname" class="form-control" placeholder="Last Name" required>
+              <input type="text" name="Email" id="emailaddress" class="form-control" placeholder="Email Address" required>
+              <br>
+              <div class="radio-button">
+                  <input id="book-availability" name="type-of-enquiry" value="book-availability" type="radio">
+                  <label for="book-availability">Book a holiday at Oakwood Cove</label>
+                  
+                  <input id="general-enquiry" name="type-of-enquiry" value="general-enquiry" type="radio">
+                  <label for="general-enquiry">General Enquiry</label>
+              </div>
+              <br>
+              <textarea rows="12" name="Enquiry" id="enquiry" class="form-control" placeholder="Enquiry description" required></textarea>
+  
+              <div class="form-row text-center">
+                  <div class="col">
+                      <button type="submit" class="btn btn-secondary">Send Message</button>
+                  </div>
+              </div> 
+          </form>
+      </div>
       </div>
     </div>
   </div>
 </section>
-
-<section class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <div class="center-form">
-                <form id="contact-form" aria-label="A contact form to submit an enquiry" method="POST" action="https://formdump.codeinstitute.net">
-                    <input type="text" name="First Name" id="fname" class="form-control" placeholder="First Name" required>
-                    <input type="text" name="Last Name" id="lname" class="form-control" placeholder="Last Name" required>
-                    <input type="text" name="Email" id="emailaddress" class="form-control" placeholder="Email Address" required>
-                    <br>
-                    <div class="radio-button">
-                        <input id="book-availability" name="type-of-enquiry" value="book-availability" type="radio">
-                        <label for="book-availability">Book a holiday at Oakwood Cove</label>
-                        
-                        <input id="general-enquiry" name="type-of-enquiry" value="general-enquiry" type="radio">
-                        <label for="general-enquiry">General Enquiry</label>
-                    </div>
-                    <br>
-                    <textarea rows="12" name="Enquiry" id="enquiry" class="form-control" placeholder="Enquiry description" required></textarea>
-        
-                    <div class="form-row text-center">
-                        <div class="col">
-                            <button type="submit" class="btn btn-secondary">Send Message</button>
-                        </div>
-                    </div> 
-                </form>
-            </div>
-        </div>
-    </div>
 
 </section>
 <!-- Footer adapted from https://www.youtube.com/watch?v=X3K5KCRYtRk -->
