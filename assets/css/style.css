@@ -143,6 +143,10 @@ hr {
         padding-bottom: 20px;
 }
 
+.about h1 {
+    font-size: 200%;
+}
+
 /* --------------------- Main Homepage - General Info section */
 .general-info a {
     text-decoration: none;
