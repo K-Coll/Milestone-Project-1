@@ -237,6 +237,10 @@ hr {
     max-width: 90%;
 }
 
+.contact-form h2 {
+    font-size: 1.5em;
+}
+
 input[type="radio"] {
     margin: 0 10px 0 10px;
   }
@@ -255,6 +259,9 @@ button[type="submit"] {
     margin-bottom: 2em;
 }
 
+.questions h2 {
+    font-size: 1.5em;
+}
 
 /* --------------------- Footer - inspired by and adapted from https://www.youtube.com/watch?v=X3K5KCRYtRk */
 .footer-body {
