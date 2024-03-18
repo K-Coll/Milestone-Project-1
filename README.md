@@ -1,17 +1,19 @@
 # Oakwood Cove Camp Site
+(Developer: Katie Collins)  
+
 Oakwood Cove Campsite is a website to promote a newley developed camp site for motorhomes, caravans and tents. Visitors to the site will also be able to submit a message to the owners of the site using the contact form.  
 
 The site is built using HTML5, CSS3 and Bootstrap v5 for the Milestone Project 1 for Code Institute's Diploma in Web Development.
 
-[View the live site here](https://k-coll.github.io/Milestone-Project-1/)
+[Live Website](https://k-coll.github.io/Milestone-Project-1/)
 
-## Contents
+## Table of Contents
 
 ## User Experience (UX)
 ### Strategy
 The Oakwood Cove Camp Site Website is designed to be responsive and accessible on a range of devices. It allows visitors to find out about the campsite, the local area in which it is situated, what facilities and amenities there are and the types of pitches available to book.
 
-### User Stories  
+### User Stories and Project Goals  
   * #### Client Goals
     a.  To showcase the newly developed camp site including the grounds, pitches and all the facilities on offer to visitors and potential customers.   
     b.  To allow visitors to the site to contact the camp site owners for any potential enquires or to book a holiday.  
@@ -57,13 +59,18 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
 
   Wireframes were created for this project using Balsamic. For each page, a wireframe was created for mobile, tablet and desktop. I tried to stick to this design as close as possible for the final project.
 
-  ![Homepage – Desktop, Tablet & Mobile]()
-
-  ![Campsite – Desktop, Tablet & Mobile]()
-  
-  ![Local Area - Desktop, Tabel & Mobile]()
-
-  ![Contact - Desktop, Tablet & Mobile]()
+<details><summary>Home</summary>
+<img src="docs/wireframes/pg1-homepage.png">
+</details>
+<details><summary>Campsite</summary>
+<img src="docs/wireframes/pg2-campsite.png">
+</details>
+<details><summary>Local Area</summary>
+<img src="docs/wireframes/pg3-localarea.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframes/pg4-contact.png">
+</details>
 
   ### Surface
 
@@ -79,12 +86,12 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
 
     The design of the website to include the colour scheme is to create a gradient effect. The top of the website is lighter, the main body of the website is a mix of light and dark to create contrast, and the bottom of the website is darker.  
 
-    ![Coloors Colour Palette]()
+    ![Coloors Colour Palette](docs/features/msp1-colour-palette.png)
 
 * #### Contrast Checker
     Contrast was checked for accessibility using WebAIM's contrast checker - https://webaim.org/resources/contrastchecker/. The contrast for the main body of the website is 10.07:1
 
-    ![Contrast Checker]()
+    ![Contrast Checker](docs/features/contrast-checker.png)
 
 * #### Typography
     Three fonts are used for this website.  
@@ -100,13 +107,13 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
     The imagery captures a sense of being outdoors and features a lot of the grounding colours of nature, which complement the colours used for the design to tie everything together and give it an overall cohesive look.  
     
     The type of imagery used on the website is sourced from Freepik.com, specifically:  
-            * Home Page Hero Image: https://www.freepik.com/premium-photo/high-angle-view-trees-beach_114914176.htm. From author EyeEm https://www.freepik.com/author/EyeEm  
-            * Campsite Page Hero Image: https://www.freepik.com/free-photo/toddler-brother-sister-autumn-playground_2784350.htm. From author Freepik https://www.freepik.com/author/freepik  
-            * Campsite Page Pitches section: https://www.freepik.com/premium-photo/caravan-camping-site-nature-with-travel-trailers-riva-istanbul-turkey-april-04-2022_31832656.htm from author Gizemg - https://www.freepik.com/author/gizemg  
-            * Local Area Page, Glyndwr Town card: https://www.freepik.com/premium-photo/prague-czech-republic-september-22-2018-charles-bridge-sunrise_26236017.htm. From author EugenePetrunin https://www.freepik.com/author/eugenepetrunin  
-            * Local Area Page,  Llŷn Peninsula Beach card: https://www.freepik.com/free-photo/walking-area-front-waikawa-beach-new-zealand_11111961.htm. From author Wirestock https://www.freepik.com/author/wirestock  
-            * Local Area Page, Events card: https://www.freepik.com/premium-photo/blur-festival_5387185.htm. From author user7814140 https://www.freepik.com/author/user7814140  
-            * Local Area Page, Things To Do card: https://www.freepik.com/free-photo/low-angle-shot-st-george-s-chapel-middle-park-windsor-uk_10990346.htm. From author Wirestock https://www.freepik.com/author/wirestock    
+            * [Home Page Hero Image](https://www.freepik.com/premium-photo/high-angle-view-trees-beach_114914176.htm). From author [EyeEm](https://www.freepik.com/author/EyeEm)  
+            * [Campsite Page Hero Image](https://www.freepik.com/free-photo/toddler-brother-sister-autumn-playground_2784350.htm). From author [Freepik](https://www.freepik.com/author/freepik)  
+            * [Campsite Page Pitches section](https://www.freepik.com/premium-photo/caravan-camping-site-nature-with-travel-trailers-riva-istanbul-turkey-april-04-2022_31832656.htm) from author [Gizemg](https://www.freepik.com/author/gizemg)  
+            * [Local Area Page, Glyndwr Town card](https://www.freepik.com/premium-photo/prague-czech-republic-september-22-2018-charles-bridge-sunrise_26236017.htm). From author [EugenePetrunin](https://www.freepik.com/author/eugenepetrunin)  
+            * [Local Area Page, Llŷn Peninsula Beach card](https://www.freepik.com/free-photo/walking-area-front-waikawa-beach-new-zealand_11111961.htm). From author [Wirestock](https://www.freepik.com/author/wirestock)  
+            * [Local Area Page, Events card](https://www.freepik.com/premium-photo/blur-festival_5387185.htm). From author [user7814140](https://www.freepik.com/author/user7814140)  
+            * [Local Area Page, Things To Do card](https://www.freepik.com/free-photo/low-angle-shot-st-george-s-chapel-middle-park-windsor-uk_10990346.htm). From author [Wirestock](https://www.freepik.com/author/wirestock)    
 
   * #### Media
     Font Awesome icons are also used sparingly throughout.  
@@ -116,6 +123,7 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
     The icons are also used on the Campsite page, specifically in the Facilities section to again provide a visual representation of the different facilities and amenities that are provided by the campsite. This also differentiates between the Facilities and Pitches sections breaks up the text, so it’s not two big paragraphs of listed text.
 
 ## Features
+The website consists of four pages and 16 elements / features overall.
 
 ### Site Level Elements
 * There is a header at the top of the page which is comprised of the Bootstrap Nav Bar. This houses the name of the camp site and links to all the pages contained within the website to act as a navigational menu bar. It is fully responsive and collapses down to a hamburger menu on medium and small devices. There is a balanced design to this, as the menu text is horizontally centred and in line with the middle of the logo / name of the website.  
@@ -124,27 +132,27 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
 
 ### Page Level Elements
 
-#### Homepage
-The home page is the landing page of the website and features a hero image, which is an aerial image of the camp site to show that is by the beach, underneath the navigational header. There is also a text overlay that houses the tag line for the campsite. The background image is used as decoration and is therefore added in via CSS.  
+* #### Homepage 
+    The home page is the landing page of the website and features a hero image, which is an aerial image of the camp site to show that is by the beach, underneath the navigational header. There is also a text overlay that houses the tag line for the campsite. The background image is used as decoration and is therefore added in via CSS.  
     
-There is some welcome text underneath this which introduces the camp site. Furthermore, there is a general section set out in three columns, which provides additional information such as the opening times, the prices and the address.
+    There is some welcome text underneath this which introduces the camp site. Furthermore, there is a general section set out in three columns, which provides additional information such as the opening times, the prices and the address.
 
-#### Campsite
-This page is split into three sections – the hero image to showcase that the campsite is child and family friendly, the facilities section and the pitches section.  
+* #### Campsite
+    This page is split into three sections – the hero image to showcase that the campsite is child and family friendly, the facilities section and the pitches section.  
     
-The Facilities section utilises the Bootstrap grid and is fully responsive. On large devices, the content is displayed across four columns, whereas on medium and smaller devices, the content is displayed across two columns.  Font Awesome icons were used to help visualise the facilities and amenities that are available in the campsite – such as security, the toilet / shower block, wifi, a shop, etc.  
+    The Facilities section utilises the Bootstrap grid and is fully responsive. On large devices, the content is displayed across four columns, whereas on medium and smaller devices, the content is displayed across two columns.  Font Awesome icons were used to help visualise the facilities and amenities that are available in the campsite – such as security, the toilet / shower block, wifi, a shop, etc.  
     
-The pitches section is split in two – one the left-hand side there is an image of some campervans on the pitches and on the right-hand side there is an ordered list of the pitch types that are available, along with any additional charges. This is also fully responsive. On a large and medium device, the image and listed text appear side by side. On a small device, they are stacked on top of each other, with the image appearing first and the listed text appearing underneath.  
+    The pitches section is split in two – one the left-hand side there is an image of some campervans on the pitches and on the right-hand side there is an ordered list of the pitch types that are available, along with any additional charges. This is also fully responsive. On a large and medium device, the image and listed text appear side by side. On a small device, they are stacked on top of each other, with the image appearing first and the listed text appearing underneath.  
     
-#### Local Area
-This page utilities the Bootstrap card element and has 4 images, with accompanying text underneath. The information is broken down into four sub headings - Glyndwr Town, Llŷn Peninsula Beach, Events and Things to Do. The aim of this page is to showcase the local area in which the camp site is located, enabling visitors and potential customers to plan their holiday with activities and things to do and enjoy. The purpose of this is to reinforce a sense of community and connection between the campsite, it’s owners and the local area. Again, this page is also fully responsive. On a large and medium device, the four cards are displayed in two columns and two rows. On a small device, the four cards are displayed in one column with four rows, as they are all stacked on top of each other.  
+* #### Local Area
+    This page utilities the Bootstrap card element and has 4 images, with accompanying text underneath. The information is broken down into four sub headings - Glyndwr Town, Llŷn Peninsula Beach, Events and Things to Do. The aim of this page is to showcase the local area in which the camp site is located, enabling visitors and potential customers to plan their holiday with activities and things to do and enjoy. The purpose of this is to reinforce a sense of community and connection between the campsite, it’s owners and the local area. Again, this page is also fully responsive. On a large and medium device, the four cards are displayed in two columns and two rows. On a small device, the four cards are displayed in one column with four rows, as they are all stacked on top of each other.  
 
-#### Contact
-This page has an introductory section at the top and is then split into two columns of equal width. One the left is the FAQ section comprised of a Bootstrap accordion that is styled with custom CSS. On the right is the contact form.  
+* #### Contact
+    This page has an introductory section at the top and is then split into two columns of equal width. One the left is the FAQ section comprised of a Bootstrap accordion that is styled with custom CSS. On the right is the contact form.  
     
-This page has two purposes – one to provide customers with useful information that is often asked, and two to provide an option for users of the website to contact the owners of the campsite. This could be to provide feedback, for a general enquiry or to book a holiday for specific dates. Some elements are mandatory and are required before the form can be submitted properly.  
+    This page has two purposes – one to provide customers with useful information that is often asked, and two to provide an option for users of the website to contact the owners of the campsite. This could be to provide feedback, for a general enquiry or to book a holiday for specific dates. Some elements are mandatory and are required before the form can be submitted properly.  
     
-This page is also fully responsive. On a large and medium device, the FAQ section is on the left-hand side and the Contact Form is on the right hand side. Whereas on a small device, the sections are stacked on top of each other. There is also a horizontal rule in between the two sections when on a small device, to differentiate between the two and to tie in the branding and the theme to create an overall cohesive look.  
+    This page is also fully responsive. On a large and medium device, the FAQ section is on the left-hand side and the Contact Form is on the right hand side. Whereas on a small device, the sections are stacked on top of each other. There is also a horizontal rule in between the two sections when on a small device, to differentiate between the two and to tie in the branding and the theme to create an overall cohesive look.  
 
 ## Future Implementations
 * Addition of an iframe to incorporate the google maps into the address section
@@ -185,14 +193,31 @@ I wanted to add a < hr > tag between the FAQ and Contact sections on a small dev
 Chrome developer tools were used to test, identify and address any issues. This was also used to ensure the website was responsive on different screen sizes throughout the build process.
 
 ### Validator Testing
-W3C was used to validate both the HTML and the CSS code using the following websites: https://validator.w3.org and https://jigsaw.w3.org/css-validator/.
+* #### HTML Validation
+    The W3C HTML Markup Validator was used to validate the HTML code of the website. All HTML validation was successful, with no errors showing. However, for the homepage, campsite and local area pages there were warnings. This was due to the use of the headings being out of order. This was a learning I took away from this project and from web desing and development overall. With additional time, I would have re-ordered the headings and I plan to do this as part of the future development of this website.
 
-![HTML Validator - Homepage]()  
-![HTML Validator - Campsite]()  
-![HTML Validator - Local Area]()  
-![HTML Validator - Contact]()  
+    <details><summary>Home</summary>
+    <img src="docs/validation/html-validator-homepage.png">
+    </details>
+    <details><summary>Campsite</summary>
+    <img src="docs/validation/html-validator-campsite.png">
+    </details>
+    <details><summary>Local Area</summary>
+    <img src="docs/validation/html-validator-localarea.png">
+    </details>
+    <details><summary>Contact</summary>
+    <img src="docs/validation/html-validator-contact.png">
+    </details>
 
-![CSS Validator]()
+* #### CSS Validation
+    The W3C Jigsaw CSS Validator was used to test the CSS code of the website. All CSS validation was successful. However, there was a warning regarding the use of Google Fonts, which could not be validated. This did not affect the validation of the CSS code as it still passed with no errors found.
+
+    <details><summary>CSS Validator</summary>
+    <img src="docs/validation/css-validator-no-errors.png">
+    </details>
+    <details><summary>CSS Warning</summary>
+    <img src="docs/validation/css-validator-warnings.png">
+    </details>
 
 ### Lighthouse
 I tested my website using Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and SEO (seacrh enginer optimisation). Initially, the performance score was the lowest at 85. This was due to the size of the images I was using, even though I had already compressed them down. I then converted the format of the images from jpg to webp format. This improved the performance quite a lot.
@@ -201,7 +226,7 @@ I tested my website using Lighthouse within Chrome Developer Tools. This allowed
 ![Lighthouse Testing - after]()  
 
 ### Full Testing
-  The website was tested and functioned / performed well on Chrome, Safari and Edge.
+  The website was tested and functioned / performed well on Chrome, Edge and Safari.  
 
   Full testing was carried out on the following devices:
 
@@ -219,23 +244,23 @@ I tested my website using Lighthouse within Chrome Developer Tools. This allowed
 ### Links
 The internal links feature in the menu navigation bar, as well as the footer – to link to the contact page. The external links feature in the footer for the social media links, as well as on the homepage in the general information section, to link to the marine conservation society. All internal links have been tested and take you to the directed page within the website. All external links have been tested and open in a new tab.
 
-| Link / Feature                        |  Test Case                          | Outcome                                                                    |
-| :---------                            | :----------------                   | :-----------------------------------                                       |
-| Oakwood Cover Campsite                | Click on Brand Name                 | User is brought to the homepage                                            |
-| Home button                           | Click on Home button                | User is brought to the home page                                           |
-| Campsite button                       | Click on the Campsite button        | User is brought to the campsite page                                       |
-| Local Area button                     | Click on the Local Area button      | User is brought to the local area page                                     |
-| Contact button                        | Click on the Contact button         | User is brought to the contact page                                        |
-| Found out more information link       | Click on the link / bolded text     | User is taken to the marine conservation website, opens in a new tab       |
-| Facebook icon                         | Click on the icon                   | User is taken to the homepage of the Facebook website, opens in a new tab  |
-| Twitter icon                          | Click on the icon                   | User is taken to the homepage of the Twitter website, opens in a new tab   |
-| Instagram icon                        | Click on the icon                   | User is taken to the homepage of the Instagram website, opens in a new tab |
-| Submit an Enquiry caption             | Click on the link / bolded text     | User is brought to the contact page                                        |   
+| Link / Feature                  |  Test Case                      | Outcome                                                                    |
+| :---------                      | :----------------               | :-----------------------------------                                       |
+| Oakwood Cover Campsite          | Click on Brand Name             | User is brought to the homepage                                            |
+| Home button                     | Click on Home link              | User is brought to the home page                                           |
+| Campsite button                 | Click on the Campsite link      | User is brought to the campsite page                                       |
+| Local Area button               | Click on the Local Area link    | User is brought to the local area page                                     |
+| Contact button                  | Click on the Contact link       | User is brought to the contact page                                        |
+| Found out more information link | Click on the link / bolded text | User is taken to the marine conservation website, opens in a new tab       |
+| Facebook icon                   | Click on the icon               | User is taken to the homepage of the Facebook website, opens in a new tab  |
+| Twitter icon                    | Click on the icon               | User is taken to the homepage of the Twitter website, opens in a new tab   |
+| Instagram icon                  | Click on the icon               | User is taken to the homepage of the Instagram website, opens in a new tab |
+| Submit an Enquiry caption       | Click on the link / bolded text | User is brought to the contact page                                        |   
 
 ### Contact Form
 * To find the form, navigate to the ‘Contact’ page in the menu navigation bar, or by click on the ‘Submit an Enquiry’ link in the footer.  
 * Fill out all the fields, including your first name, last name and a valid ‘@’ email address.  
-* If the form is completed properly, you will see the following message:
+* If the form is completed properly, you will see the following message:  
     ![form submit message]()  
 * If you try to submit without a first name or last name you will see the following message:  
     ![fill in name message]()  
@@ -247,44 +272,46 @@ The internal links feature in the menu navigation bar, as well as the footer –
 ## Technologies Used
 
 ### Languages Used
-* HTML 5  
-* CSS3  
-* Bootstrap 5  
-* Markdown  
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
+* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+* [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
 ### Applications Used
 * Git was used for version control.  
-* Github was used to store the code.  
-* Gitpod was used for the CI template and to access VS code.  
-* VS Code was used as a code editor.  
-* Balsamic was used to create Wireframes.  
-* https://imagecompressor.com was used to decrease the dimensions and size of the images used for the website.  
-* https://convertio.co/ was used to convert the image file types from jpg to webp format.  
-* Am I Responsive was used to display all the pages of the website on different devices.  
+* [Github](https://github.com/) was used to store the code.  
+* [Gitpod](https://www.gitpod.io/) was used for the CI template and to access VS code.  
+* [VS Code](https://code.visualstudio.com/)was used as a code editor.  
+* [Balsamic](https://balsamiq.com/) was used to create Wireframes.  
+* [Image Compressor](https://imagecompressor.com) was used to decrease the dimensions and size of the images used for the website.  
+* [Convertio](https://convertio.co/) was used to convert the image file types from jpg to webp format.  
+* [Am I Responsive](https://amiresponsive.co.uk/) was used to display all the pages of the website on different devices. 
+* [W3C HTML Markup Validation](https://validator.w3.org) was used to validate the HTML code of the website.
+* [W3C Jigsaw CSS Validation](https://jigsaw.w3.org/css-validator/) was used to validate the CSS code of the website.
 
 ### Frameworks, Libraries and CDNSs
-* Bootstrap 5 is used throughout the website for template code and responsiveness. This includes the Accordion, Navigation Bar, Card, Containers and Footer. All Bootstrap elements are styled using either Bootstrap CSS or custom CSS.  
-* Google Fonts was used to import the three fonts used into the website.  
-* Font Awesome was used to add icons for visual representation and aesthetic purposes.  
+* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) is used throughout the website for template code and responsiveness. This includes the Accordion, Navigation Bar, Card, Containers and Footer. All Bootstrap elements are styled using either Bootstrap CSS or custom CSS.  
+* [Google Fonts](https://fonts.google.com/) was used to import the three fonts used into the website.  
+* [Font Awesome](https://fontawesome.com/) was used to add icons for visual representation and aesthetic purposes.  
 
 ### VS Code Extensions
-* Prettier – was used for code formatting and code completion https://prettier.io  
-* Live Server – was used for live previewing the site during the build process https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer  
+* [Prettier](https://prettier.io) – was used for code formatting and code completion. 
+* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) – was used for live previewing the site during the build process. 
 
 ### Learning Resources and Credits
-* W3 Schools – used for problem solving.  
-* Stack Overflow – for troubleshooting issues and problem solving.  
-* Code Institute Slack Community – for problem solving and user feedback.  
+* [W3 Schools](https://www.w3schools.com) – used for problem solving.  
+* [Stack Overflow](https://stackoverflow.com)– for troubleshooting issues and problem solving.  
+* [Code Institute Slack Community](https://slack.com/intl/en-gb) – for problem solving and user feedback.  
 * Code Institute Love Running Project – for inspiration / adaptation regarding the hero image text overlay.  
 * Code Institute Whisky Drop Project – for inspiration and Bootstrap grid system.  
 * Code Institue Rosie Resume – for inspiration and Bootstrap grid system.  
-* Code used for Footer – inspired by and adapted from https://www.youtube.com/watch?v=X3K5KCRYtRk.  
-* How to make footer stay at bottom of page – code used from https://radu.link/make-footer-stay-bottom-page-bootstrap.  
-* Responsive image and text side by side using HTML and CSS - Code used from: https://www.youtube.com/watch?v=-A_HESNP1T8.  
-* https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography.  
-* https://www.anphira.com/tutorial/accessible-fonts-select-website-font/.  
-* https://sparklin.medium.com/top-6-ui-fonts-for-minimalist-interfaces-in-2023-22c72f7620c2.  
-* https://design.gccollab.ca/component/typography/.  
+* [YouTube: Code used for Footer](https://www.youtube.com/watch?v=X3K5KCRYtRk) – adapted from and inspired by
+* [How to make footer stay at bottom of page](https://radu.link/make-footer-stay-bottom-page-bootstrap) – code used.  
+* [YouTube: Responsive image and text side by side using HTML and CSS](https://www.youtube.com/watch?v=-A_HESNP1T8) - Code used.
+* [Article: Introducing Accessibility in Typography](https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography).  
+* [Article: Accessible Fonts](https://www.anphira.com/tutorial/accessible-fonts-select-website-font/).  
+* [Article: Top 6 UI Fonts for Minimalist Interfaces](https://sparklin.medium.com/top-6-ui-fonts-for-minimalist-interfaces-in-2023-22c72f7620c2).  
+* [Article: Typography](https://design.gccollab.ca/component/typography/).  
 
 ### Content Used and Credits
 All text content was written by the developer and is fictional.  
@@ -292,12 +319,12 @@ All text content was written by the developer and is fictional.
 ## Deployment & Local Deployment
   * ### Deployment
     
-    Github Pages was used to deploy the live website. The instructions to achieve this are below:
+    The live website was deployed to Github Pages, by following the below instructions:
 
     1. Log in (or sign up) to Github.
-    2. Find the repository for this project, Oakwood Cove Campsite
+    2. Find the repository for this project, K-Coll/Milestone-Project-1
     3. Click on the Settings link.
-    4. Click on the Pages link in the left hand side navigation bar.
+    4. On the left hand side of the navigation bar, click on the Pages link.
     5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
     6. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
