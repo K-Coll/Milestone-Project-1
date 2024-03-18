@@ -267,11 +267,9 @@ The internal links feature in the menu navigation bar, as well as the footer –
 * Google Fonts was used to import the three fonts used into the website.  
 * Font Awesome was used to add icons for visual representation and aesthetic purposes.  
 
-
 ### VS Code Extensions
 * Prettier – was used for code formatting and code completion https://prettier.io  
 * Live Server – was used for live previewing the site during the build process https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer  
-
 
 ### Learning Resources and Credits
 * W3 Schools – used for problem solving.  
@@ -288,8 +286,37 @@ The internal links feature in the menu navigation bar, as well as the footer –
 * https://sparklin.medium.com/top-6-ui-fonts-for-minimalist-interfaces-in-2023-22c72f7620c2.  
 * https://design.gccollab.ca/component/typography/.  
 
-### Content Used
+### Content Used and Credits
 All text content was written by the developer and is fictional.  
+
+## Deployment & Local Deployment
+  * ### Deployment
+    
+    Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+    1. Log in (or sign up) to Github.
+    2. Find the repository for this project, Oakwood Cove Campsite
+    3. Click on the Settings link.
+    4. Click on the Pages link in the left hand side navigation bar.
+    5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+    6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+  * ### Local Deployment
+    * ### How to Fork
+      To fork the Oakwood Cover Campsite repository:
+
+      1. Log in (or sign up) to Github.
+      2. Go to the repository for this project, K-Coll/Milestone-Project-1.
+      3. Click the Fork button in the top right corner.
+  
+    * ### How to Clone
+      To clone the Oakwood Cove Campsite repository:
+
+      1. Log in (or sign up) to GitHub.
+      2. Go to the repository for this project, K-Coll/Milestone-Project-1.
+      3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+      4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+      5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ### Acknowledgements
 * My mentor Mo Shami.  
