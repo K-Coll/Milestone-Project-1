@@ -180,4 +180,119 @@ Both the “Glyndwr Town” and “Events” cards were the same height and the 
 6.	Contact Us – Main Body  
 I wanted to add a < hr > tag between the FAQ and Contact sections on a small device, as when they were stacked on top of each other, there was no clear distinction between the two sections. However, when adding the < hr > it worked for the small device, but it pushed the Bootstrap grid columns out of alignment on the medium and large devices. This was solved by using a media query to hide this < hr > tag from view on medium and large devices, and to only have it visible on small devices where the sections are stacked on top of each other. A border was not added to the Bootstrap columns themselves, as this wasn’t necessary to distinguish between the sections for the medium and large devices.  
 
+## Testing
 
+Chrome developer tools were used to test, identify and address any issues. This was also used to ensure the website was responsive on different screen sizes throughout the build process.
+
+### Validator Testing
+W3C was used to validate both the HTML and the CSS code using the following websites: https://validator.w3.org and https://jigsaw.w3.org/css-validator/.
+
+![HTML Validator - Homepage]()  
+![HTML Validator - Campsite]()  
+![HTML Validator - Local Area]()  
+![HTML Validator - Contact]()  
+
+![CSS Validator]()
+
+### Lighthouse
+I tested my website using Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and SEO (seacrh enginer optimisation). Initially, the performance score was the lowest at 85. This was due to the size of the images I was using, even though I had already compressed them down. I then converted the format of the images from jpg to webp format. This improved the performance quite a lot.
+
+![Lighthouse Testing - before]()  
+![Lighthouse Testing - after]()  
+
+### Full Testing
+  The website was tested and functioned / performed well on Chrome, Safari and Edge.
+
+  Full testing was carried out on the following devices:
+
+  * Laptop
+    * Macbook Pro, 14 inch 2021, M1 chip
+    * Dell Latitude 7420
+
+  * Tablet
+    * iPad (7th generation)
+
+  * Mobile
+    * iPhone 11
+    * Samsung Galaxy
+
+### Links
+The internal links feature in the menu navigation bar, as well as the footer – to link to the contact page. The external links feature in the footer for the social media links, as well as on the homepage in the general information section, to link to the marine conservation society. All internal links have been tested and take you to the directed page within the website. All external links have been tested and open in a new tab.
+
+| Link / Feature                        |  Test Case                          | Outcome                                                                    |
+| :---------                            | :----------------                   | :-----------------------------------                                       |
+| Oakwood Cover Campsite                | Click on Brand Name                 | User is brought to the homepage                                            |
+| Home button                           | Click on Home button                | User is brought to the home page                                           |
+| Campsite button                       | Click on the Campsite button        | User is brought to the campsite page                                       |
+| Local Area button                     | Click on the Local Area button      | User is brought to the local area page                                     |
+| Contact button                        | Click on the Contact button         | User is brought to the contact page                                        |
+| Found out more information link       | Click on the link / bolded text     | User is taken to the marine conservation website, opens in a new tab       |
+| Facebook icon                         | Click on the icon                   | User is taken to the homepage of the Facebook website, opens in a new tab  |
+| Twitter icon                          | Click on the icon                   | User is taken to the homepage of the Twitter website, opens in a new tab   |
+| Instagram icon                        | Click on the icon                   | User is taken to the homepage of the Instagram website, opens in a new tab |
+| Submit an Enquiry caption             | Click on the link / bolded text     | User is brought to the contact page                                        |   
+
+### Contact Form
+* To find the form, navigate to the ‘Contact’ page in the menu navigation bar, or by click on the ‘Submit an Enquiry’ link in the footer.  
+* Fill out all the fields, including your first name, last name and a valid ‘@’ email address.  
+* If the form is completed properly, you will see the following message:
+    ![form submit message]()  
+* If you try to submit without a first name or last name you will see the following message:  
+    ![fill in name message]()  
+* If you try to submit without a valid ‘@’ email address, you will see the following message:  
+    ![fill in email message]()  
+* If you try to submit a blank message without a description for your enquiry, you will see the following message:  
+    ![submit enquiry message]()  
+
+## Technologies Used
+
+### Languages Used
+* HTML 5  
+* CSS3  
+* Bootstrap 5  
+* Markdown  
+
+### Applications Used
+* Git was used for version control.  
+* Github was used to store the code.  
+* Gitpod was used for the CI template and to access VS code.  
+* VS Code was used as a code editor.  
+* Balsamic was used to create Wireframes.  
+* https://imagecompressor.com was used to decrease the dimensions and size of the images used for the website.  
+* https://convertio.co/ was used to convert the image file types from jpg to webp format.  
+* Am I Responsive was used to display all the pages of the website on different devices.  
+
+### Frameworks, Libraries and CDNSs
+* Bootstrap 5 is used throughout the website for template code and responsiveness. This includes the Accordion, Navigation Bar, Card, Containers and Footer. All Bootstrap elements are styled using either Bootstrap CSS or custom CSS.  
+* Google Fonts was used to import the three fonts used into the website.  
+* Font Awesome was used to add icons for visual representation and aesthetic purposes.  
+
+
+### VS Code Extensions
+* Prettier – was used for code formatting and code completion https://prettier.io  
+* Live Server – was used for live previewing the site during the build process https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer  
+
+
+### Learning Resources and Credits
+* W3 Schools – used for problem solving.  
+* Stack Overflow – for troubleshooting issues and problem solving.  
+* Code Institute Slack Community – for problem solving and user feedback.  
+* Code Institute Love Running Project – for inspiration / adaptation regarding the hero image text overlay.  
+* Code Institute Whisky Drop Project – for inspiration and Bootstrap grid system.  
+* Code Institue Rosie Resume – for inspiration and Bootstrap grid system.  
+* Code used for Footer – inspired by and adapted from https://www.youtube.com/watch?v=X3K5KCRYtRk.  
+* How to make footer stay at bottom of page – code used from https://radu.link/make-footer-stay-bottom-page-bootstrap.  
+* Responsive image and text side by side using HTML and CSS - Code used from: https://www.youtube.com/watch?v=-A_HESNP1T8.  
+* https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography.  
+* https://www.anphira.com/tutorial/accessible-fonts-select-website-font/.  
+* https://sparklin.medium.com/top-6-ui-fonts-for-minimalist-interfaces-in-2023-22c72f7620c2.  
+* https://design.gccollab.ca/component/typography/.  
+
+### Content Used
+All text content was written by the developer and is fictional.  
+
+### Acknowledgements
+* My mentor Mo Shami.  
+* Code Institute Cohort Facilities Kristyna and cohort friends for their motivation and support, as well as our weekly meetings, which I look forward to attending.  
+* The Code Institute Slack Community, both directly and indirectly. I was able to search the community and find help as well as ask directly in the various channels for specific issues. This is a supportive environment and community which helped me with problem solving.  
+* My mum, family and friends for their support and encouragement.  
