@@ -151,7 +151,6 @@ hr {
 }
 
 .general-info a:hover {
-    text-align: none;
     color: #57B596;
 }
 /* --------------------- Campsite Page - Facilities section */
@@ -313,7 +312,7 @@ footer a:hover{
 
 @media(min-width: 320px) {
     input[type="radio"]{
-        margin: 0, auto;
+        margin: 0 auto;
       }
 }
 
