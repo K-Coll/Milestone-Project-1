@@ -131,6 +131,8 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
   ### Surface
 
 * #### Design
+    The overall design of the website is minimal.  
+    
     There was an iterative design process of the website, which was improved upon by adding in a < hr > tag to visually separate different sections. This also incorporates the brand and the theme and creates a more cohesive look to the overall website.
     *  The < hr > tag was added after the navigation bar (on the local area and contact pages and covered 100% of the page width)  
     *  The < hr > tag was also added after the about us section on the main homepage, and after the frequently asked questions section (only on small devices). This covered 90% of the page width, with spacing either side, to create a light, airy and breathable divide between sections.
