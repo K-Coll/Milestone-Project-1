@@ -90,9 +90,9 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
     ![Coloors Colour Palette](docs/features/msp1-colour-palette.png)
 
 * #### Contrast Checker
-    Contrast was checked for accessibility using WebAIM's contrast checker - https://webaim.org/resources/contrastchecker/. The contrast for the main body of the website is 10.07:1
+    Contrast was checked for accessibility using WebAIM's contrast checker - https://webaim.org/resources/contrastchecker/. The contrast for the main body of the website is 10.07:1.
 
-    ![Contrast Checker](docs/features/contrast-checker.png)
+    ![Contrast Checker Screenshot](docs/features/contrast-checker.png)
 
 * #### Typography
     Three fonts are used for this website.  
@@ -247,16 +247,16 @@ The internal links feature in the menu navigation bar, as well as the footer –
 
 | Link / Feature                  |  Test Case                      | Outcome                                                                    |
 | :---------                      | :----------------               | :-----------------------------------                                       |
-| Oakwood Cover Campsite          | Click on Brand Name             | User is brought to the homepage                                            |
-| Home button                     | Click on Home link              | User is brought to the home page                                           |
-| Campsite button                 | Click on the Campsite link      | User is brought to the campsite page                                       |
-| Local Area button               | Click on the Local Area link    | User is brought to the local area page                                     |
-| Contact button                  | Click on the Contact link       | User is brought to the contact page                                        |
-| Found out more information link | Click on the link / bolded text | User is taken to the marine conservation website, opens in a new tab       |
+| Oakwood Cove Campsite           | Click on Brand Name             | User is brought to the homepage                                            |
+| Home link                       | Click on Home link              | User is brought to the home page                                           |
+| Campsite link                   | Click on the Campsite link      | User is brought to the campsite page                                       |
+| Local Area link                 | Click on the Local Area link    | User is brought to the local area page                                     |
+| Contact link                    | Click on the Contact link       | User is brought to the contact page                                        |
+| Find out more information link  | Click on the link / bolded text | User is taken to the marine conservation website, opens in a new tab       |
 | Facebook icon                   | Click on the icon               | User is taken to the homepage of the Facebook website, opens in a new tab  |
 | Twitter icon                    | Click on the icon               | User is taken to the homepage of the Twitter website, opens in a new tab   |
 | Instagram icon                  | Click on the icon               | User is taken to the homepage of the Instagram website, opens in a new tab |
-| Submit an Enquiry caption       | Click on the link / bolded text | User is brought to the contact page                                        |   
+| Submit an Enquiry link          | Click on the link / bolded text | User is brought to the contact page                                        |   
 
 ### Contact Form
 * To find the form, navigate to the ‘Contact’ page in the menu navigation bar, or by click on the ‘Submit an Enquiry’ link in the footer.  
