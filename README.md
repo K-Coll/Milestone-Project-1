@@ -10,7 +10,6 @@ The site is built using HTML5, CSS3 and Bootstrap v5 for the Milestone Project 1
 
 ## Table of Contents
 
-
 * [User Experience (UX)](#user-experience-ux)
   * [Strategy](#strategy)
     * [User Stories](#user-stories)
@@ -68,25 +67,29 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
 
 ### User Stories 
   * #### Client Goals
-    1.  To showcase the newly developed camp site including the grounds, pitches and all the facilities on offer to visitors and potential customers.   
-    2.  To allow visitors to the site to contact the camp site owners for any potential enquires or to book a holiday.  
-    3.  To be able to view and use the site on multiple devices.
+    1.  As the Site Owner, I want to showcase the newly developed camp site including the grounds, pitches and all the facilities on offer to visitors and potential customers.   
+    2.  As the Site Owner, I want to allow potential customers and visitors to the website to contact the camp site owners for any potential enquires or to book a holiday.  
 
   * #### First Time Visitor Goals
-    4.  I want to be able to understand the purpose of the site.    
-    5.  I want to see a picture of the camp site pitches.  
-    6.  I want to know what facilities are available and what the camp site offers.  
-    7.  I want to get in touch and to have any potential questions answered.  
-    8.  I want to be able to navigate the site easily to find information.    
+    3. As a First Time Visitor, I want to be able to understand the purpose of the website and know more about the campsite itself.
+    4. As a First Time Visitor, I want to know the price range of the campsite to decide if it is within my budget.
+    5. As a First Time Visitor, I want to know the address of the campsite and where it is located.
+    6. As a First Time Visitor, I to know what types of pitches are available to book.
+    7. As a First Time Visitor, I want to know what facilities are available and what the camp site offers.
+    8. As a First Time Visitor, I want to get in touch and to have any potential questions answered.
+    9. As a First Time Visitor, I want to be able to navigate the site easily to find information.
+      
   
   * #### Returning Visitor Goals
-    9. I want to view a picture of the camp site for my upcoming holiday.  
-    10. I want to access useful information and review the facilities on offer while planning for an upcoming holiday at the campsite.  
-    11. I want to follow up on my previous viewing of the website in order to make an enquiry and get in touch with the camp owners.  
-  
-  * #### Frequent Visitor Goals
-    12. I want to recommend Oakwood Cove Camp Site to my friends and family for their camping holidays.  
-    13. I want to check out new features as the website develops.
+    10. As a Returning Visitor, I want to know what times of year the campsite is open and what time check in and check out is.
+    11. As a Returning Visitor, I want to view a picture of the camp site for my upcoming holiday.
+    12. As a Returning Visitor, I want to access useful information and review the facilities on offer while planning for an upcoming holiday at the campsite.
+    13. As a Returning Visitor, I want to find useful information regarding the local area surrounding the campsite, in order to plan what I’m doing on my holiday.
+    14. As a Returning Visitor, I want to find useful information about the local town in order to plan my holiday.
+    15. As a Returning Visitor, I want to find useful information about the local beach in order to plan my holiday.
+    16. As a Returning Visitor, I want to find useful information regarding any events in the local area in order to plan my holiday.
+    17. As a Returning Visitor, I want to find useful information regarding things to do in the local area in order to plan my holiday.
+    18. As a Returning Visitor, I want to follow up on my previous viewing of the website in order to make an enquiry and have any potential questions answered.  
   
 ### Scope
   The goal for the project is to make an informative, easy to navigate and visually appealing website, with a minimym of three pages.  
@@ -400,7 +403,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 <br>
 <br>
 
-13.  As a Returning Visitor, I want to find useful information regarding the local area surrounding the campsite, in order to plan what I’m doing on my holiday..           
+13.  As a Returning Visitor, I want to find useful information regarding the local area surrounding the campsite, in order to plan what I’m doing on my holiday.           
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
