@@ -10,11 +10,63 @@ The site is built using HTML5, CSS3 and Bootstrap v5 for the Milestone Project 1
 
 ## Table of Contents
 
+
+* [User Experience (UX)](#user-experience-ux)
+  * [Strategy](#strategy)
+    * [User Stories](#user-stories)
+  * [Scope](#scope)
+  * [Structure](#structure)
+    * [Home Page](#home-page)
+    * [CampsitePage](#campsite-page)
+    * [Local Area Page](#local-area-page)
+    * [Contact Page](#contact-page)
+  * [Skeleton](#skeleton)
+  * [Surface](#surface)
+    * [Design](#design)
+    * [Colour Scheme](#colour-scheme)
+    * [Contrast Checker](#contrast-checker)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+    * [Media](#media)
+* [Features](#features)
+  * [Site Level Elements](#site-level-elements)
+  * [Page Level Elements](#page-level-elements)
+    * [Homepage](#homepage)
+    * [Campsite](#campsite)
+    * [Local Area](#local-area)
+    * [Contact](#contact)
+* [Future Implementations](#future-implementations)
+* [Accessibility](#accessibility)
+* [Testing](#testing)
+  * [Testing User Stories](#testing-user-stories)
+  * [Validator Testing](#validator-testing)
+    * [HTML Validation](#html-validation)
+    * [CSS Validation](#css-validation)
+  * [Lighthouse](#lighthouse)
+  * [Full Testing on Devices and Browsers ](#full-testing)
+  * [Links](#links)
+  * [Contact Form](#contact-form)
+  * [Solved Bugs](#solved-bugs)
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Applications Used](#applications-used)
+  * [Frameworks, Libraries and CDNs Used](#frameworks-libraries-and-CDNs)
+  * [VS Code Extensions](#vs-code-extensions)
+* [Deployment & Local Development](#deployment-local-development)
+  * [Deployment](#deployment)
+  * [Local Deployment](#local-deployment)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+* [Credits](#credits)
+  * [Learning Resources](#learning-resources)
+  * [Content Used](#content-used)
+  * [Acknowledgements](#acknowledgements)
+
 ## User Experience (UX)
 ### Strategy
 The Oakwood Cove Camp Site Website is designed to be responsive and accessible on a range of devices. It allows visitors to find out about the campsite, the local area in which it is situated, what facilities and amenities there are and the types of pitches available to book.
 
-### User Stories and Project Goals  
+### User Stories 
   * #### Client Goals
     a.  To showcase the newly developed camp site including the grounds, pitches and all the facilities on offer to visitors and potential customers.   
     b.  To allow visitors to the site to contact the camp site owners for any potential enquires or to book a holiday.  
@@ -102,9 +154,8 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
     Sans Serif was also used as the fall-back font throughout the entire website, if the other fonts are not working properly.  
     
     These fonts are accessible and were chosen because they are clear and easy to read and are popular for people who have visual or cognitive disabilities.  
-    
-* ### Imagery and Media 
-  * #### Imagery
+
+* #### Imagery
     The imagery captures a sense of being outdoors and features a lot of the grounding colours of nature, which complement the colours used for the design to tie everything together and give it an overall cohesive look.  
     
     The type of imagery used on the website is sourced from Freepik.com, specifically:  
@@ -116,7 +167,7 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
             * [Local Area Page, Events card](https://www.freepik.com/premium-photo/blur-festival_5387185.htm). From author [user7814140](https://www.freepik.com/author/user7814140)  
             * [Local Area Page, Things To Do card](https://www.freepik.com/free-photo/low-angle-shot-st-george-s-chapel-middle-park-windsor-uk_10990346.htm). From author [Wirestock](https://www.freepik.com/author/wirestock)    
 
-  * #### Media
+* #### Media
     Font Awesome icons are also used sparingly throughout.  
 
     The icons are used within the footer on each page to provide a visual representation of the social media links.  
@@ -168,26 +219,7 @@ I have tried to ensure the website is as accessible as possible by:
 * Using easy to read and accessible fonts.
 * Adding aria-labels for screen readers.
 * Using a cohesive design scheme and colour contrasts to make sure the text is easy to read.
-* Using clear navigation.
-
-## Solved Bugs
-1.	Nav Bar Section  
-On the “Local Area” and “Contact” page, there was no clear distinction between the Nav Bar and the Main Body. To fix this, there was an iterative design process of the website, which was improved upon by adding in a < hr > tag to cover the whole width of the page. This was not added to the “Home” page and the “Campsite” page, as the hero image acts as the section break after the Nav Bar and before the main body text. Therefore, it was deemed unnecessary. This also incorporates the brand and the theme and creates a more cohesive look.  
-
-2.	Footer  
-At first, the social media icons were too close together. This caused an issue particularly on small devices, as it was difficult to distinguish which link you wanted to click on. This was fixed by increasing the size of the icons and adding padding to create more space between the < a > links.  
-
-3.	Campsite page – Facilities section  
-At first the columns for the facilities section were too close together making the text look squashed together. This made the section itself quite short in comparison to the hero image and the pitches section. This was fixed by adding padding to the top and bottom to the bootstrap columns to create more space in-between the font awesome icons. Furthermore, the overall vertical alignment of this section of the page is now more balanced as it is taller than before.  
-
-4.	Main Page - General Info Section  
-On a mobile device there was not enough room between the general info sections, in particular between the middle section in relation to the top and bottom sections. This was fixed by increasing the margins with the bootstrap classes to add spacing in between the columns, when on a small device in a stacked view.  
-
-5.	Local Area - Cards  
-Both the “Glyndwr Town” and “Events” cards were the same height and the “Llŷn Peninsula Beach” and “Things To Do” cards were the same height. However, all four cards were not the same height as each other due to the differing amount of text. To fix this, the Bootstrap class of ‘h-100’ was added to each individual card, to make the height equal and all the same.  
-
-6.	Contact Us – Main Body  
-I wanted to add a < hr > tag between the FAQ and Contact sections on a small device, as when they were stacked on top of each other, there was no clear distinction between the two sections. However, when adding the < hr > it worked for the small device, but it pushed the Bootstrap grid columns out of alignment on the medium and large devices. This was solved by using a media query to hide this < hr > tag from view on medium and large devices, and to only have it visible on small devices where the sections are stacked on top of each other. A border was not added to the Bootstrap columns themselves, as this wasn’t necessary to distinguish between the sections for the medium and large devices.  
+* Using clear navigation.  
 
 ## Testing
 
@@ -270,6 +302,25 @@ The internal links feature in the menu navigation bar, as well as the footer –
 * If you try to submit a blank message without a description for your enquiry, you will see the following message:  
     ![submit enquiry message]()  
 
+### Solved Bugs
+1.	Nav Bar Section  
+On the “Local Area” and “Contact” page, there was no clear distinction between the Nav Bar and the Main Body. To fix this, there was an iterative design process of the website, which was improved upon by adding in a < hr > tag to cover the whole width of the page. This was not added to the “Home” page and the “Campsite” page, as the hero image acts as the section break after the Nav Bar and before the main body text. Therefore, it was deemed unnecessary. This also incorporates the brand and the theme and creates a more cohesive look.  
+
+2.	Footer  
+At first, the social media icons were too close together. This caused an issue particularly on small devices, as it was difficult to distinguish which link you wanted to click on. This was fixed by increasing the size of the icons and adding padding to create more space between the < a > links.  
+
+3.	Campsite page – Facilities section  
+At first the columns for the facilities section were too close together making the text look squashed together. This made the section itself quite short in comparison to the hero image and the pitches section. This was fixed by adding padding to the top and bottom to the bootstrap columns to create more space in-between the font awesome icons. Furthermore, the overall vertical alignment of this section of the page is now more balanced as it is taller than before.  
+
+4.	Main Page - General Info Section  
+On a mobile device there was not enough room between the general info sections, in particular between the middle section in relation to the top and bottom sections. This was fixed by increasing the margins with the bootstrap classes to add spacing in between the columns, when on a small device in a stacked view.  
+
+5.	Local Area - Cards  
+Both the “Glyndwr Town” and “Events” cards were the same height and the “Llŷn Peninsula Beach” and “Things To Do” cards were the same height. However, all four cards were not the same height as each other due to the differing amount of text. To fix this, the Bootstrap class of ‘h-100’ was added to each individual card, to make the height equal and all the same.  
+
+6.	Contact Us – Main Body  
+I wanted to add a < hr > tag between the FAQ and Contact sections on a small device, as when they were stacked on top of each other, there was no clear distinction between the two sections. However, when adding the < hr > it worked for the small device, but it pushed the Bootstrap grid columns out of alignment on the medium and large devices. This was solved by using a media query to hide this < hr > tag from view on medium and large devices, and to only have it visible on small devices where the sections are stacked on top of each other. A border was not added to the Bootstrap columns themselves, as this wasn’t necessary to distinguish between the sections for the medium and large devices.
+
 ## Technologies Used
 
 ### Languages Used
@@ -299,23 +350,6 @@ The internal links feature in the menu navigation bar, as well as the footer –
 * [Prettier](https://prettier.io) – was used for code formatting and code completion. 
 * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) – was used for live previewing the site during the build process. 
 
-### Learning Resources and Credits
-* [W3 Schools](https://www.w3schools.com) – used for problem solving.  
-* [Stack Overflow](https://stackoverflow.com)– for troubleshooting issues and problem solving.  
-* [Code Institute Slack Community](https://slack.com/intl/en-gb) – for problem solving and user feedback.  
-* Code Institute Love Running Project – for inspiration / adaptation regarding the hero image text overlay.  
-* Code Institute Whisky Drop Project – for inspiration and Bootstrap grid system.  
-* Code Institue Rosie Resume – for inspiration and Bootstrap grid system.  
-* [YouTube: Code used for Footer](https://www.youtube.com/watch?v=X3K5KCRYtRk) – adapted from and inspired by
-* [How to make footer stay at bottom of page](https://radu.link/make-footer-stay-bottom-page-bootstrap) – code used.  
-* [YouTube: Responsive image and text side by side using HTML and CSS](https://www.youtube.com/watch?v=-A_HESNP1T8) - Code used.
-* [Article: Introducing Accessibility in Typography](https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography).  
-* [Article: Accessible Fonts](https://www.anphira.com/tutorial/accessible-fonts-select-website-font/).  
-* [Article: Top 6 UI Fonts for Minimalist Interfaces](https://sparklin.medium.com/top-6-ui-fonts-for-minimalist-interfaces-in-2023-22c72f7620c2).  
-* [Article: Typography](https://design.gccollab.ca/component/typography/).  
-
-### Content Used and Credits
-All text content was written by the developer and is fictional.  
 
 ## Deployment & Local Deployment
   * ### Deployment
@@ -346,7 +380,26 @@ All text content was written by the developer and is fictional.
       4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
       5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
-### Acknowledgements
+## Credits
+###  Learning Resources
+* [W3 Schools](https://www.w3schools.com) – used for problem solving.  
+* [Stack Overflow](https://stackoverflow.com)– for troubleshooting issues and problem solving.  
+* [Code Institute Slack Community](https://slack.com/intl/en-gb) – for problem solving and user feedback.  
+* Code Institute Love Running Project – for inspiration / adaptation regarding the hero image text overlay.  
+* Code Institute Whisky Drop Project – for inspiration and Bootstrap grid system.  
+* Code Institue Rosie Resume – for inspiration and Bootstrap grid system.  
+* [YouTube: Code used for Footer](https://www.youtube.com/watch?v=X3K5KCRYtRk) – adapted from and inspired by
+* [How to make footer stay at bottom of page](https://radu.link/make-footer-stay-bottom-page-bootstrap) – code used.  
+* [YouTube: Responsive image and text side by side using HTML and CSS](https://www.youtube.com/watch?v=-A_HESNP1T8) - Code used.
+* [Article: Introducing Accessibility in Typography](https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography).  
+* [Article: Accessible Fonts](https://www.anphira.com/tutorial/accessible-fonts-select-website-font/).  
+* [Article: Top 6 UI Fonts for Minimalist Interfaces](https://sparklin.medium.com/top-6-ui-fonts-for-minimalist-interfaces-in-2023-22c72f7620c2).  
+* [Article: Typography](https://design.gccollab.ca/component/typography/).  
+
+### Content Used
+All text content was written by the developer and is fictional.  
+
+## Acknowledgements
 * My mentor Mo Shami.  
 * Code Institute Cohort Facilities Kristyna and cohort friends for their motivation and support, as well as our weekly meetings, which I look forward to attending.  
 * The Code Institute Slack Community, both directly and indirectly. I was able to search the community and find help as well as ask directly in the various channels for specific issues. This is a supportive environment and community which helped me with problem solving.  
