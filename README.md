@@ -68,25 +68,25 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
 
 ### User Stories 
   * #### Client Goals
-    a.  To showcase the newly developed camp site including the grounds, pitches and all the facilities on offer to visitors and potential customers.   
-    b.  To allow visitors to the site to contact the camp site owners for any potential enquires or to book a holiday.  
-    c.  To be able to view and use the site on multiple devices.
+    1.  To showcase the newly developed camp site including the grounds, pitches and all the facilities on offer to visitors and potential customers.   
+    2.  To allow visitors to the site to contact the camp site owners for any potential enquires or to book a holiday.  
+    3.  To be able to view and use the site on multiple devices.
 
   * #### First Time Visitor Goals
-    a.  I want to be able to understand the purpose of the site.    
-    b.  I want to see pictures of the camp site pitches.  
-    c.  I want to know what facilities are available and what the camp site offers.  
-    d.  I want to get in touch and to have any potential questions answered.  
-    e.  I want to be able to navigate the site easily to find information.    
+    4.  I want to be able to understand the purpose of the site.    
+    5.  I want to see a picture of the camp site pitches.  
+    6.  I want to know what facilities are available and what the camp site offers.  
+    7.  I want to get in touch and to have any potential questions answered.  
+    8.  I want to be able to navigate the site easily to find information.    
   
   * #### Returning Visitor Goals
-    a. I want to view the pictures of the camp site for my upcoming holiday.  
-    b. I want to access useful information and review the facilities on offer while planning for an upcoming holiday at the campsite.  
-    c. I want to follow up on my previous viewing of the website in order to make an enquiry and get in touch with the camp owners.  
+    9. I want to view a picture of the camp site for my upcoming holiday.  
+    10. I want to access useful information and review the facilities on offer while planning for an upcoming holiday at the campsite.  
+    11. I want to follow up on my previous viewing of the website in order to make an enquiry and get in touch with the camp owners.  
   
   * #### Frequent Visitor Goals
-    a. I want to recommend Oakwood Cove Camp Site to my friends and family for their camping holidays.  
-    b. I want to check out new features as the website develops.
+    12. I want to recommend Oakwood Cove Camp Site to my friends and family for their camping holidays.  
+    13. I want to check out new features as the website develops.
   
 ### Scope
   The goal for the project is to make an informative, easy to navigate and visually appealing website, with a minimym of three pages.  
@@ -225,6 +225,259 @@ I have tried to ensure the website is as accessible as possible by:
 
 Chrome developer tools were used to test, identify and address any issues. This was also used to ensure the website was responsive on different screen sizes throughout the build process.
 
+### Testing User Stories
+
+#### Site Owner Goals
+
+1. As the Site Owner, I want to showcase the newly developed camp site including the grounds, pitches and all the facilities on offer to visitors and potential customers.  
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Homepage Hero Image | Navigate to the Homapage | View Hero Image | Image loads as expected |
+| General Information Section | Navigate to the Homapage | View the information section with the subheadings: Timings, Prices, Address | Works as expected; visitor gains knowledge of campsite |
+| Facilities | Navigate to the Campsite page, locate the Facilities section with the font awesome icons | Locating the list of facilities and amenities that are on offer, promoting the campsite | Works as expected; visitor gains knowledge of campsite |
+| Pitches image and list items | Navigate to the Campsite page, locate the Pitches section | View the image of the pitches and read list of types of pitches available | Works as expected; visitor gains knowledge of campsite |
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-hompage-hero-image.png">  
+<img src="docs/user-story-testing/user-story-general-information.png">  
+<img src="docs/user-story-testing/user-story-facilities.png">  
+<img src="docs/user-story-testing/user-story-pitches.png">  
+</details>  
+<br>
+<br>
+
+
+2.  As the Site Owner, I want to allow potential customers and visitors to the website to contact the camp site owners for any potential enquires or to book a holiday.      
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Form | Navigate to the Contact Page and locate the contact form, fill out all required fields and submit contact form | Data submited via contact form | Works as expected; Code Institute form submission confirmation page is displayed to the user once the form has been submitted correctly|
+| Footer on any page| On any page scroll down to the footer at the bottom, click on the 'Submit an Enquiry link | Directed to the contact page | Works as expected; vistor is directed to the contact page, which opens within the same window and not a new tab, as it is an internal link|
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-contact-form.png">  
+<img src="docs/user-story-testing/user-story-contact-form-submit.png">  
+<img src="docs/user-story-testing/user-story-footer-contact-link.png">  
+</details>  
+<br>
+<br>
+
+#### First Time Visitor Goals
+
+3.  As a First Time Visitor, I want to be able to understand the purpose of the website and know more about the campsite itself.  
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Tag Line text overlay on hero image | Navigate to the Home Page and locate the tag line, which is the overlay text on the hero image | View tag line and hero image | Works as expected; visitor understands the purpose of the website and gains knowledge of campsite|
+| Welcome and about us message | Navigate to the Home Page and locate the welcome information | View Welcome message | Works as expected; visitor understands the purpose of the website and gains knowledge of campsite|
+| General Information Section | Navigate to the Homapage | View the information section with the subheadings: Timings, Prices, Address | Works as expected; visitor gains knowledge of campsite |
+| Facilities | Navigate to the Campsite page, locate the Facilities section with the font awesome icons | Locating the list of facilities and amenities that are on offer, promoting the campsite | Works as expected; visitor gains knowledge of campsite |
+| Pitches image and list items | Navigate to the Campsite page, locate the Pitches section | View the image of the pitches and read list of types of pitches available | Works as expected; visitor gains knowledge of campsite |
+| Frequently Asked Questions | Navigate to the Contact Page and locate the Frequently Asked Questions accordion. Click on the downward facing arrow to open the individual questions | Each question will open and collapse | Works as expected|
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-hompage-hero-image.png">  
+<img src="docs/user-story-testing/user-story-about.png">  
+<img src="docs/user-story-testing/user-story-general-information.png">  
+<img src="docs/user-story-testing/user-story-facilities.png">  
+<img src="docs/user-story-testing/user-story-pitches.png">  
+<img src="docs/user-story-testing/user-story-faq.png">  
+</details>  
+<br>
+<br>
+
+4.  As a First Time Visitor, I want to know the price range of the campsite to decide if it is within my budget.     
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Prices | Navigate to the Home Page and locate the general information section. Within this, locate the Prices section| View the Prices information | Works as expected; visitor gains knowledge of the price range for the pitches available|
+| Pitches image and list items | Navigate to the Campsite page, locate the Pitches section | View the image of the pitches and read list of types of pitches available | Works as expected; visitor gains additional knowledge regarding any additional fees, for a specific pitch type |
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-prices.png">  
+<img src="docs/user-story-testing/user-story-pitches.png">    
+</details>
+<br>
+<br>
+
+5.  As a First Time Visitor, I want to know the address of the campsite and where it is located.      
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Address | Navigate to the Home Page and locate the general information section. Within this, locate the Address section| View the Address information | Works as expected; visitor gains knowledge of the address and can do additional research using Google Maps to locate on a map|
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-address.png">     
+</details>
+<br>
+<br>
+
+6.  As a First Time Visitor, I to know what types of pitches are available to book.      
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Pitches image and list items | Navigate to the Campsite page, locate the Pitches section | View the image of the pitches and read list of types of pitches available | Works as expected; visitor gains knowledge of the types of pitches that are available |
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-pitches.png">     
+</details>
+<br>
+<br>
+7.  As a First Time Visitor, I want to know what facilities are available and what the camp site offers.     
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Facilities | Navigate to the Campsite page, locate the Facilities section with the font awesome icons | Locating the list of facilities and amenities that are on offer | Works as expected; visitor gains knowledge of what facilities and amendities are on offer at the campsite. |
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-pitches.png">     
+</details>
+<br>
+<br>
+
+8.  As a First Time Visitor, I want to get in touch and to have any potential questions answered.       
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Form | Navigate to the Contact Page and locate the contact form, fill out all required fields and submit contact form | Data submited via contact form | Works as expected; Code Institute form submission confirmation page is displayed to the user once the form has been submitted correctly|
+| Frequently Asked Questions | Navigate to the Contact Page and locate the Frequently Asked Questions accordion. Click on the downward facing arrow to open the individual questions | Each question will open and collapse | Works as expected|
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-contact-form.png">  
+<img src="docs/user-story-testing/user-story-faq.png">   
+</details>
+<br>
+<br>
+
+9.  As a First Time Visitor, I want to be able to navigate the site easily to find information.          
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | Navigate to any page and locate the Navigation Bar at the top of each page | Name of page is bolded and a different colour to emphasise the current page | Works as expected; vistor can easily navigate the website|
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-navbar.png">   
+</details>
+<br>
+<br>
+
+#### Returning Visitor Goals
+
+10.  As a Returning Visitor, I want to know what times of year the campsite is open and what time check in and check out is.          
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Timings | Navigate to the Home Page and locate the general information section. Within this, locate the Timings section| View the information regarding the seasonal opening times as well as the check in and check out times | Works as expected; visitor gains knowledge of the operational timings for the campsite|
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-timings.png">   
+</details>
+<br>
+<br>
+
+11.  As a Returning Visitor, I want to view a picture of the camp site for my upcoming holiday.           
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Pitches image and list items | Navigate to the Campsite page, locate the Pitches section | View the image of the pitches and read list of types of pitches available | Works as expected; visitor gains knowledge of the types of pitches that are available |
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-pitches.png">     
+</details>
+<br>
+<br>
+
+12.  As a Returning Visitor, I want to access useful information and review the facilities on offer while planning for an upcoming holiday at the campsite.           
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Facilities | Navigate to the Campsite page, locate the Facilities section with the font awesome icons | Locating the list of facilities and amenities that are on offer | Works as expected; visitor gains knowledge of what facilities and amendities are on offer at the campsite. |
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-facilities.png">     
+</details>
+<br>
+<br>
+
+13.  As a Returning Visitor, I want to find useful information regarding the local area surrounding the campsite, in order to plan what I’m doing on my holiday..           
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Local Area| Navigate to the Local Area page | View the welcome information and scroll down the page to find additional information regarding Glyndwr Town, Llŷn Peninsula Beach, Events and Things to Do| Works as expected; vistor gains knowledge about the local area surrounding the campsite|
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-localarea.png">   
+</details>
+<br>
+<br>
+
+14.  As a Returning Visitor, I want to find useful information about the local town in order to plan my holiday.           
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Glyndwr Town| Navigate to the Local Area page. Locate the image and heading title 'Glyndwr Town'| View the image and information regarding the local town| Works as expected; vistor gains knowledge about the local townand can view a pleasing image to depict this|
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-glyndwr-town.png">   
+</details>
+<br>
+<br>
+
+15.  As a Returning Visitor, I want to find useful information about the local beach in order to plan my holiday.          
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Llŷn Peninsula Beach| Navigate to the Local Area page. Locate the image and heading title 'Llŷn Peninsula Beach'| View the image and information regarding the local beach| Works as expected; vistor gains knowledge about the local beach and can view a pleasing image to depict this|
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-beach.png">   
+</details>
+<br>
+<br>
+
+16.  As a Returning Visitor, I want to find useful information regarding any events in the local area in order to plan my holiday.           
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Events| Navigate to the Local Area page. Locate the image and heading title 'Events'| View the image and information regarding the events that are taking place| Works as expected; vistor gains knowledge about any events that are taking place and can view a pleasing image to depict this|
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-events.png">   
+</details>
+<br>
+<br>
+
+17.  As a Returning Visitor, I want to find useful information regarding things to do in the local area in order to plan my holiday.          
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Things to Do|  Navigate to the Local Area page. Locate the image and heading title 'Things to Do'| View the image and information regarding things to do in the local area| Works as expected; vistor gains knowledge about different things they can do and different activities they can take part it and can view a pleasing image to depict this|
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-things-to-do.png">   
+</details>
+<br>
+<br>
+
+18.  As a Returning Visitor, I want to follow up on my previous viewing of the website in order to make an enquiry and have any potential questions answered.           
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Form | Navigate to the Contact Page and locate the contact form, fill out all required fields and submit contact form | Data submited via contact form | Works as expected; Code Institute form submission confirmation page is displayed to the user once the form has been submitted correctly|
+| Frequently Asked Questions | Navigate to the Contact Page and locate the Frequently Asked Questions accordion. Click on the downward facing arrow to open the individual questions | Each question will open and collapse | Works as expected|
+| Footer on any page| On any page scroll down to the footer at the bottom, click on the 'Submit an Enquiry link | Directed to the contact page | Works as expected; vistor is directed to the contact page, which opens within the same window and not a new tab, as it is an internal link|
+
+<details><summary>Screenshot Evidence</summary>
+<img src="docs/user-story-testing/user-story-contact-form.png">  
+<img src="docs/user-story-testing/user-story-faq.png">   
+<img src="docs/user-story-testing/user-story-footer-contact-link.png">
+</details>
+<br>
+<br>
+
+
+
 ### Validator Testing
 * #### HTML Validation
     The W3C HTML Markup Validator was used to validate the HTML code of the website. All HTML validation was successful, with no errors showing. However, for the homepage, campsite and local area pages there were warnings. This was due to the use of the headings being out of order. This was a learning I took away from this project and from web desing and development overall. With additional time, I would have re-ordered the headings and I plan to do this as part of the future development of this website.
@@ -243,7 +496,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
     </details>
 
 * #### CSS Validation
-    The W3C Jigsaw CSS Validator was used to test the CSS code of the website. All CSS validation was successful. However, there was a warning regarding the use of Google Fonts, which could not be validated. This did not affect the validation of the CSS code as it still passed with no errors found.
+    The W3C Jigsaw CSS Validator was used to test the CSS code of the website. All CSS validation was successful. However, there was a warning regarding the use of Google Fonts, which could not be validated. This did not affect the validation of the CSS code as it still passed with no errors found.  
 
     <details><summary>CSS Validator</summary>
     <img src="docs/validation/css-validator-no-errors.png">
@@ -253,12 +506,11 @@ Chrome developer tools were used to test, identify and address any issues. This 
     </details>
 
 ### Lighthouse
-I tested my website using Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and SEO (seacrh enginer optimisation). Initially, the performance score was the lowest at 85. This was due to the size of the images I was using, even though I had already compressed them down. I then converted the format of the images from jpg to webp format. This improved the performance quite a lot.
+I tested my website using Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and SEO (seacrh enginer optimisation). Initially, the performance score was the lowest at 85. This was due to the size of the images I was using, even though I had already compressed them down. I then converted the format of the images from jpg to webp format. This improved the performance quite a lot. The overall performance is: 92, 94, 100, 100.
 
-![Lighthouse Testing - before]()  
-![Lighthouse Testing - after]()  
+![Lighthouse Testing](docs/validation/lighthouse-performance.png)
 
-### Full Testing
+### Full Testing on Devices and Browsers
   The website was tested and functioned / performed well on Chrome, Edge and Safari.  
 
   Full testing was carried out on the following devices:
@@ -272,7 +524,6 @@ I tested my website using Lighthouse within Chrome Developer Tools. This allowed
 
   * Mobile
     * iPhone 11
-    * Samsung Galaxy
 
 ### Links
 The internal links feature in the menu navigation bar, as well as the footer – to link to the contact page. The external links feature in the footer for the social media links, as well as on the homepage in the general information section, to link to the marine conservation society. All internal links have been tested and take you to the directed page within the website. All external links have been tested and open in a new tab.
@@ -292,15 +543,16 @@ The internal links feature in the menu navigation bar, as well as the footer –
 
 ### Contact Form
 * To find the form, navigate to the ‘Contact’ page in the menu navigation bar, or by click on the ‘Submit an Enquiry’ link in the footer.  
-* Fill out all the fields, including your first name, last name and a valid ‘@’ email address.  
+* Fill out all the fields, including your first name, last name and a valid ‘@’ email address. 
+
 * If the form is completed properly, you will see the following message:  
-    ![form submit message]()  
+    ![form submit message](docs/validation/form-correct.png)  
 * If you try to submit without a first name or last name you will see the following message:  
-    ![fill in name message]()  
+    ![fill in name message](docs/validation/form-name-required.png)  
 * If you try to submit without a valid ‘@’ email address, you will see the following message:  
-    ![fill in email message]()  
+    ![fill in email message](docs/validation/form-email-required.png)  
 * If you try to submit a blank message without a description for your enquiry, you will see the following message:  
-    ![submit enquiry message]()  
+    ![submit enquiry message](docs/validation/form-equiry-required.png)  
 
 ### Solved Bugs
 1.	Nav Bar Section  
