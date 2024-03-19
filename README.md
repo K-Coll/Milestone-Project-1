@@ -66,7 +66,7 @@ The site is built using HTML5, CSS3 and Bootstrap v5 for the Milestone Project 1
 The Oakwood Cove Camp Site Website is designed to be responsive and accessible on a range of devices. It allows visitors to find out about the campsite, the local area in which it is situated, what facilities and amenities there are and the types of pitches available to book.
 
 ### User Stories 
-  * #### Client Goals
+  * #### Site Owner Goals
     1.  As the Site Owner, I want to showcase the newly developed camp site including the grounds, pitches and all the facilities on offer to visitors and potential customers.   
     2.  As the Site Owner, I want to allow potential customers and visitors to the website to contact the camp site owners for any potential enquires or to book a holiday.  
 
