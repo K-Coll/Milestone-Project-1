@@ -361,7 +361,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 | Facilities | Navigate to the Campsite page, locate the Facilities section with the font awesome icons | Locating the list of facilities and amenities that are on offer | Works as expected; visitor gains knowledge of what facilities and amendities are on offer at the campsite. |
 
 <details><summary>Screenshot Evidence</summary>
-<img src="docs/user-story-testing/user-story-pitches.png">     
+<img src="docs/user-story-testing/user-story-facilities.png">     
 </details>
 <br>
 <br>
