@@ -92,13 +92,13 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
     18. As a Returning Visitor, I want to follow up on my previous viewing of the website in order to make an enquiry and have any potential questions answered.  
   
 ### Scope
-  The goal for the project is to make an informative, easy to navigate and visually appealing website, with a minimym of three pages.  
+  The goal for the project is to make an informative, easy to navigate and visually appealing website, with a minimum of three pages.  
 
 ### Structure
   Overall the website has four pages. These are:  
 
 *  **The Home Page**  
-    This page is the landing page of the website to introduce the camp site.
+    This page is the landing page of the website to introduce the camp site and provide information.
 
 * **Campsite**  
     This page is to showcase and promote what’s on offer and provided by the campsite, to enable visitors and potential customers to plan for their holiday.  
