@@ -78,8 +78,7 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
     7. As a First Time Visitor, I want to know what facilities are available and what the camp site offers.
     8. As a First Time Visitor, I want to get in touch and to have any potential questions answered.
     9. As a First Time Visitor, I want to be able to navigate the site easily to find information.
-      
-  
+
   * #### Returning Visitor Goals
     10. As a Returning Visitor, I want to know what times of year the campsite is open and what time check in and check out is.
     11. As a Returning Visitor, I want to view a picture of the camp site for my upcoming holiday.
@@ -213,6 +212,7 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
 * There is a header at the top of the page which is comprised of the Bootstrap Nav Bar. This houses the name of the camp site and links to all the pages contained within the website to act as a navigational menu bar. It is fully responsive and collapses down to a hamburger menu on medium and small devices. There is a balanced design to this, as the menu text is horizontally centred and in line with the middle of the logo / name of the website. User Stories covered: 9.  
 ![Logo and navbar](docs/features/feature-hr-navbar.png)  
   <br>  
+
 * There is a footer at the bottom of every page which houses the social media icons and an internal link that takes user directly to the contact page. The social media links for Facebook, Twitter / X and Instagram, show as icons. These are active links but they navigate to the homepages of Facebook, Twitter / X and Instagram respectively and do not link to the actual campsite, as it is a fictional business for project purposes. User Stories covered: 2, 8, 9, 18.
 
   ![Footer](docs/features/feature-footer.png)  
@@ -313,7 +313,6 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
   <img src="docs/validation/wave-contact.png">
   </details>  
 
-
 ## Testing
 
 Chrome developer tools were used to test, identify and address any issues. This was also used to ensure the website was responsive on different screen sizes throughout the build process.
@@ -344,8 +343,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
   <img src="docs/user-story-testing/user-story-pitches.png">
   </details>  
   <br>
-  <br>
-
 
 2.  As the Site Owner, I want to allow potential customers and visitors to the website to contact the camp site owners for any potential enquires or to book a holiday.      
 
@@ -361,7 +358,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
   <details><summary>Footer on any page</summary>
   <img src="docs/user-story-testing/user-story-footer-contact-link.png">
   </details> 
-  <br>
   <br>
 
 #### First Time Visitor Goals
@@ -396,7 +392,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
   <img src="docs/user-story-testing/user-story-faq.png">
   </details>  
   <br>
-  <br>
 
 4.  As a First Time Visitor, I want to know the price range of the campsite to decide if it is within my budget.     
 
@@ -412,7 +407,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
   <img src="docs/user-story-testing/user-story-pitches.png">
   </details> 
   <br>
-  <br>
 
 5.  As a First Time Visitor, I want to know the address of the campsite and where it is located.      
 
@@ -423,7 +417,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
 <details><summary>Address</summary>
 <img src="docs/user-story-testing/user-story-address.png">     
 </details>
-<br>
 <br>
 
 6.  As a First Time Visitor, I to know what types of pitches are available to book.      
@@ -436,7 +429,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 <img src="docs/user-story-testing/user-story-pitches.png">     
 </details>
 <br>
-<br>
+
 7.  As a First Time Visitor, I want to know what facilities are available and what the camp site offers.     
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -446,7 +439,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
 <details><summary>Facilities</summary>
 <img src="docs/user-story-testing/user-story-facilities.png">     
 </details>
-<br>
 <br>
 
 8.  As a First Time Visitor, I want to get in touch and to have any potential questions answered.       
@@ -463,7 +455,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
   <img src="docs/user-story-testing/user-story-faq.png">
   </details> 
   <br>
-  <br>
 
 9.  As a First Time Visitor, I want to be able to navigate the site easily to find information.          
 
@@ -474,7 +465,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
 <details><summary>Navigation Bar</summary>
 <img src="docs/user-story-testing/user-story-navbar-2.png">   
 </details>
-<br>
 <br>
 
 #### Returning Visitor Goals
@@ -489,7 +479,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
 <img src="docs/user-story-testing/user-story-timings.png">   
 </details>
 <br>
-<br>
 
 11.  As a Returning Visitor, I want to view a picture of the camp site for my upcoming holiday.           
 
@@ -500,7 +489,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
 <details><summary>Pitches image and list items</summary>
 <img src="docs/user-story-testing/user-story-pitches.png">     
 </details>
-<br>
 <br>
 
 12.  As a Returning Visitor, I want to access useful information and review the facilities on offer while planning for an upcoming holiday at the campsite.           
@@ -513,7 +501,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
 <img src="docs/user-story-testing/user-story-facilities.png">     
 </details>
 <br>
-<br>
 
 13.  As a Returning Visitor, I want to find useful information regarding the local area surrounding the campsite, in order to plan what I’m doing on my holiday.           
 
@@ -525,7 +512,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
 <img src="docs/user-story-testing/user-story-localarea.png">   
 </details>
 <br>
-<br>
 
 14.  As a Returning Visitor, I want to find useful information about the local town in order to plan my holiday.           
 
@@ -536,7 +522,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
 <details><summary>Glyndwr Town</summary>
 <img src="docs/user-story-testing/user-story-glyndwr-town.png">   
 </details>
-<br>
 <br>
 
 15.  As a Returning Visitor, I want to find useful information about the local beach in order to plan my holiday.          
@@ -561,7 +546,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
 <img src="docs/user-story-testing/user-story-events.png">   
 </details>
 <br>
-<br>
 
 17.  As a Returning Visitor, I want to find useful information regarding things to do in the local area in order to plan my holiday.          
 
@@ -573,7 +557,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
 <img src="docs/user-story-testing/user-story-things-to-do.png">   
 </details>
 <br>
-<br>
 
 18.  As a Returning Visitor, I want to follow up on my previous viewing of the website in order to make an enquiry and have any potential questions answered.           
 
@@ -582,6 +565,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 | Contact Form | Navigate to the Contact Page and locate the contact form, fill out all required fields and submit contact form | Data submited via contact form | Works as expected; Code Institute form submission confirmation page is displayed to the user once the form has been submitted correctly|
 | Frequently Asked Questions | Navigate to the Contact Page and locate the Frequently Asked Questions accordion. Click on the downward facing arrow to open the individual questions | Each question will open and collapse | Works as expected|
 | Footer on any page| On any page scroll down to the footer at the bottom, click on the 'Submit an Enquiry link | Directed to the contact page | Works as expected; vistor is directed to the contact page, which opens within the same window and not a new tab, as it is an internal link|
+  
   <details><summary>Contact Form</summary>
   <img src="docs/user-story-testing/user-story-contact-form-2.png">
   </details>  
