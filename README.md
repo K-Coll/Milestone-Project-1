@@ -4,7 +4,7 @@ Oakwood Cove Campsite is a website to promote a newley developed camp site for m
 
 The site is built using HTML5, CSS3 and Bootstrap v5 for the Milestone Project 1 for Code Institute's Diploma in Web Development.
 
-![Responsive Image](docs/features/am-i-responsive.png)
+![Responsive Image](docs/features/responsive-image.png)
 
 [Live Website](https://k-coll.github.io/mp1-oakwood-cove-campsite/)
 
