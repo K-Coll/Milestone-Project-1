@@ -6,7 +6,7 @@ The site is built using HTML5, CSS3 and Bootstrap v5 for the Milestone Project 1
 
 ![Responsive Image](docs/features/responsive-image.png)
 
-[Live Website](https://k-coll.github.io/mp1-oakwood-cove-campsite/)
+[Link to Live Website](https://k-coll.github.io/mp1-oakwood-cove-campsite/)
 
 ## Table of Contents
 
