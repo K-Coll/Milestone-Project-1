@@ -204,7 +204,12 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
 
     The icons are used within the footer on each page to provide a visual representation of the social media links.  
 
-    The icons are also used on the Campsite page, specifically in the Facilities section to again provide a visual representation of the different facilities and amenities that are provided by the campsite. This also differentiates between the Facilities and Pitches sections breaks up the text, so it’s not two big paragraphs of listed text.
+    The icons are also used on the Campsite page, specifically in the Facilities section to again provide a visual representation of the different facilities and amenities that are provided by the campsite. This also differentiates between the Facilities and Pitches sections breaks up the text, so it’s not two big paragraphs of listed text.  
+    <br>
+    ![Fontawesome Icons Social Media](docs/features/fontawesome-icons-socialmedia.png)  
+    <br>  
+    ![Font Awesome Icons Facilities](docs/features/font-awesome-icons-facilities.png)  
+    <br>  
 
 ## Features
 The website consists of four pages and 16 elements / features overall.
