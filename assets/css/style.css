@@ -226,7 +226,6 @@ hr {
     padding-bottom: 15px;
 }
 
-
 /* --------------------- Local Area Page - Introduction & Main Body */
 .area-intro {
     padding-top: 40px;
@@ -246,7 +245,6 @@ hr {
     text-decoration: underline;
 }
 
-
 /* --------------------- Contact Page - FAQ and Contact Form section */
 .contact-intro-text {
     margin-top: 40px;
@@ -261,7 +259,7 @@ hr {
 
 input[type="radio"] {
     margin: 0 10px 0 10px;
-  }
+}
 
 button[type="submit"] {
     margin-top: 35px;
@@ -276,10 +274,10 @@ button[type="submit"] {
 button:hover {
     background-color: #57B596; 
 }
+
 .accordion-item {
     margin-bottom: 2em;
 }
-
 
 /* --------------------- Footer - inspired by and adapted from https://www.youtube.com/watch?v=X3K5KCRYtRk */
 .footer-body {
