@@ -166,7 +166,9 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
 
 * #### Contrast Checker
     Contrast was checked for accessibility using WebAIM's contrast checker - https://webaim.org/resources/contrastchecker/.  
+    <br>
     The contrast for the main body of the website is 10.07:1. This is also the contrast for the footer, as it uses the same colours although the footer is light text on dark background.  
+    <br>
     The contrast for the Nav Bar is 7.24:1.
 
     <details><summary>Contrast Checker - Main Body / Footer</summary>
