@@ -513,16 +513,16 @@ Chrome developer tools were used to test, identify and address any issues. This 
     The W3C HTML Markup Validator was used to validate the HTML code of the website. All HTML validation was successful, with no errors showing. However, for the homepage, campsite and local area pages there were warnings. This was due to the use of the headings being out of order. This was a learning I took away from this project and from web desing and development overall. I was able to re-order some headings and style them with targted CSS. With additional time, I would have fixed this and re-ordered all the headings. I plan to do this as part of the future development of this website.
 
     <details><summary>Home</summary>
-    <img src="docs/validation/html-validator-homepage.png">
+    <img src="docs/validation/html-validation-homepage.png">
     </details>
     <details><summary>Campsite</summary>
-    <img src="docs/validation/html-validator-campsite.png">
+    <img src="docs/validation/html-validation-campsite.png">
     </details>
     <details><summary>Local Area</summary>
-    <img src="docs/validation/html-validator-localarea.png">
+    <img src="docs/validation/html-validation-localarea.png">
     </details>
     <details><summary>Contact</summary>
-    <img src="docs/validation/html-validator-contact.png">
+    <img src="docs/validation/html-validation-contact.png">
     </details>
 
 * #### CSS Validation
