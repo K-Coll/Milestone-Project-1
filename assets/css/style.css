@@ -272,8 +272,8 @@ button:hover {
     margin-bottom: 2em;
 }
 
-.questions h2 {
-    font-size: 1.5em;
+.questions h2, h3 {
+    font-size: 1.5em !important;
 }
 
 /* --------------------- Footer - inspired by and adapted from https://www.youtube.com/watch?v=X3K5KCRYtRk */
@@ -297,7 +297,7 @@ button:hover {
     font-family: Kalam, sans-serif;
     justify-content: center;
     text-align: center;
-    font-size: 22px;
+    font-size: 18px !important;
     font-weight: 200;
     color: #fafafa;
 }
