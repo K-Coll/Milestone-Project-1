@@ -154,7 +154,7 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
       </details>  
       <br>  
 * #### Colour Scheme
-    The idea for the colour scheme is to keep it fresh and bright, whilst also being easy to read and understand. I also wanted to tie the colour scheme into the grounding colours of nature to create a calming outside holistic feel, which the hues green provides.  
+    The idea for the colour scheme is to keep it fresh and bright, whilst also being easy to read and understand. I also wanted to tie the colour scheme into the grounding colours of nature to create a calming outside holistic feel, which the hues of green and blue provides.  
 
     The overall design of the website is minimalistic; only four main colours are used. This is purposeful so as not to take away focus on the images used within the website and also not the clash with them. The images used have lots of complimentary colours which creates an overall cohesive and pleasing aesthetic.  
 
