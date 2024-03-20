@@ -622,6 +622,8 @@ I wanted to add a < hr > tag between the FAQ and Contact sections on a small dev
 * [Am I Responsive](https://amiresponsive.co.uk/) was used to display all the pages of the website on different devices. 
 * [W3C HTML Markup Validation](https://validator.w3.org) was used to validate the HTML code of the website.
 * [W3C Jigsaw CSS Validation](https://jigsaw.w3.org/css-validator/) was used to validate the CSS code of the website.
+* [WebAIM Wave Accessibility](https://wave.webaim.org) was used to evaluate the accessibility of the website to ensure it is up to high standards.
+* [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) was used to check the contrast of the colours used in the design of the website.
 
 ### Frameworks, Libraries and CDNSs
 * [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) is used throughout the website for template code and responsiveness. This includes the Accordion, Navigation Bar, Card, Containers and Footer. All Bootstrap elements are styled using either Bootstrap CSS or custom CSS.  
