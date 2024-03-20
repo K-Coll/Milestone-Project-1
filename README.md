@@ -134,9 +134,25 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
     The overall design of the website is minimal.  
     
     There was an iterative design process of the website, which was improved upon by adding in a < hr > tag to visually separate different sections. This also incorporates the brand and the theme and creates a more cohesive look to the overall website.
-    *  The < hr > tag was added after the navigation bar (on the local area and contact pages and covered 100% of the page width)  
-    *  The < hr > tag was also added after the about us section on the main homepage, and after the frequently asked questions section (only on small devices). This covered 90% of the page width, with spacing either side, to create a light, airy and breathable divide between sections.
+    * The < hr > tag was added after the navigation bar (on the local area and contact pages and covered 100% of the page width)
+    * The < hr > tag was also added after the about us section on the main homepage, after the frequently asked questions section (only on small devices) on the contact page, and inbetween the facilities and pitches section on the campsite page. This covered 90% of the page width, with spacing either side, to create a light, airy and breathable divide between sections.  
 
+    <details><summary>Feature - < hr > tag - navbar</summary>
+    <img src="docs/features/feature-hr-navbar.png">
+    </details>  
+    <br>  
+    <details><summary>Feature - < hr > tag - homepage</summary>
+    <img src="docs/features/feature-hr-homepage.png">
+    </details>  
+    <br>  
+    <details><summary>Feature - < hr > tag - campsite</summary>
+    <img src="docs/features/feature-hr-campsite.png">
+    </details>  
+    <br>  
+    <details><summary>Feature - < hr > tag - contact</summary>
+    <img src="docs/features/feature-hr-contact.png">
+    </details>  
+    <br>  
 * #### Colour Scheme
     The idea for the colour scheme is to keep it fresh and bright, whilst also being easy to read and understand. I also wanted to tie the colour scheme into the grounding colours of nature to create a calming outside holistic feel, which the hues green provides.  
 
