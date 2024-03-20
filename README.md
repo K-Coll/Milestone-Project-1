@@ -592,7 +592,6 @@ Chrome developer tools were used to test, identify and address any issues. This 
   <img src="docs/user-story-testing/user-story-footer-contact-link.png">
   </details>  
   <br>
-  <br>
 
 ### Validator Testing
 * #### HTML Validation
