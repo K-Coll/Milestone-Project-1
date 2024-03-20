@@ -387,7 +387,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 | Navigation Bar | Navigate to any page and locate the Navigation Bar at the top of each page | Name of page is bolded and a different colour to emphasise the current page | Works as expected; vistor can easily navigate the website|
 
 <details><summary>Screenshot Evidence</summary>
-<img src="docs/user-story-testing/user-story-navbar.png">   
+<img src="docs/user-story-testing/user-story-navbar-2.png">   
 </details>
 <br>
 <br>
