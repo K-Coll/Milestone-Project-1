@@ -225,10 +225,15 @@ hr {
     padding-bottom: 40px;
 }
 
+.area-main-body h2, h3, h4, h5 {
+    font-size: 1.17em !important;
+}
+
 .card-title {
     font-size: 130%;
     text-decoration: underline;
 }
+
 
 /* --------------------- Contact Page - FAQ and Contact Form section */
 .contact-intro-text {
