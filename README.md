@@ -235,6 +235,22 @@ I have tried to ensure the website is as accessible as possible by:
 * Using a cohesive design scheme and colour contrasts to make sure the text is easy to read.
 * Using clear navigation.  
 
+The WAVE WebAIM web accessibility evaluatuon tool was used to ensure the website meets high accessibility standards. All pages of the website passsed with zero errors.
+
+  <details><summary>Wave Home Page</summary>
+  <img src="docs/validation/wave-home.png">
+  </details>  
+  <details><summary>Wave Campsite Page</summary>
+  <img src="docs/validation/wave-campsite.png">
+  </details>  
+  <details><summary>Wave Local Area Page</summary>
+  <img src="docs/validation/wave-localarea.png">
+  </details>  
+  <details><summary>Wave Contact Page</summary>
+  <img src="docs/validation/wave-contact.png">
+  </details>  
+
+
 ## Testing
 
 Chrome developer tools were used to test, identify and address any issues. This was also used to ensure the website was responsive on different screen sizes throughout the build process.
