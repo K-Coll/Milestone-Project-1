@@ -330,15 +330,21 @@ Chrome developer tools were used to test, identify and address any issues. This 
 | General Information Section | Navigate to the Homapage | View the information section with the subheadings: Timings, Prices, Address | Works as expected; visitor gains knowledge of campsite |
 | Facilities | Navigate to the Campsite page, locate the Facilities section with the font awesome icons | Locating the list of facilities and amenities that are on offer, promoting the campsite | Works as expected; visitor gains knowledge of campsite |
 | Pitches image and list items | Navigate to the Campsite page, locate the Pitches section | View the image of the pitches and read list of types of pitches available | Works as expected; visitor gains knowledge of campsite |
-
-<details><summary>Screenshot Evidence</summary>
-<img src="docs/user-story-testing/user-story-homepage-hero-image.png">  
-<img src="docs/user-story-testing/user-story-general-information.png">  
-<img src="docs/user-story-testing/user-story-facilities.png">  
-<img src="docs/user-story-testing/user-story-pitches.png">  
-</details>  
-<br>
-<br>
+  
+  <details><summary>Homepage Hero Image</summary>
+  <img src="docs/user-story-testing/user-story-homepage-hero-image.png">
+  </details>  
+  <details><summary>General Information Section</summary>
+  <img src="docs/user-story-testing/user-story-general-information.png">
+  </details>  
+  <details><summary>Facilities</summary>
+  <img src="docs/user-story-testing/user-story-facilities.png">
+  </details>  
+  <details><summary>Pitches image and list items</summary>
+  <img src="docs/user-story-testing/user-story-pitches.png">
+  </details>  
+  <br>
+  <br>
 
 
 2.  As the Site Owner, I want to allow potential customers and visitors to the website to contact the camp site owners for any potential enquires or to book a holiday.      
@@ -347,14 +353,16 @@ Chrome developer tools were used to test, identify and address any issues. This 
 |-------------|------------|---------------------|-------------------|
 | Contact Form | Navigate to the Contact Page and locate the contact form, fill out all required fields and submit contact form | Data submited via contact form | Works as expected; Code Institute form submission confirmation page is displayed to the user once the form has been submitted correctly|
 | Footer on any page| On any page scroll down to the footer at the bottom, click on the 'Submit an Enquiry link | Directed to the contact page | Works as expected; vistor is directed to the contact page, which opens within the same window and not a new tab, as it is an internal link|
-
-<details><summary>Screenshot Evidence</summary>
-<img src="docs/user-story-testing/user-story-contact-form-2.png">  
-<img src="docs/user-story-testing/user-story-contact-form-submit.png">  
-<img src="docs/user-story-testing/user-story-footer-contact-link.png">  
-</details>  
-<br>
-<br>
+  
+  <details><summary>Contact Form</summary>
+  <img src="docs/user-story-testing/user-story-contact-form-2.png">
+  <img src="docs/user-story-testing/user-story-contact-form-submit.png">
+  </details>  
+  <details><summary>Footer on any page</summary>
+  <img src="docs/user-story-testing/user-story-footer-contact-link.png">
+  </details> 
+  <br>
+  <br>
 
 #### First Time Visitor Goals
 
@@ -368,17 +376,25 @@ Chrome developer tools were used to test, identify and address any issues. This 
 | Facilities | Navigate to the Campsite page, locate the Facilities section with the font awesome icons | Locating the list of facilities and amenities that are on offer, promoting the campsite | Works as expected; visitor gains knowledge of campsite |
 | Pitches image and list items | Navigate to the Campsite page, locate the Pitches section | View the image of the pitches and read list of types of pitches available | Works as expected; visitor gains knowledge of campsite |
 | Frequently Asked Questions | Navigate to the Contact Page and locate the Frequently Asked Questions accordion. Click on the downward facing arrow to open the individual questions | Each question will open and collapse | Works as expected|
-
-<details><summary>Screenshot Evidence</summary>
-<img src="docs/user-story-testing/user-story-homepage-hero-image.png">  
-<img src="docs/user-story-testing/user-story-about.png">  
-<img src="docs/user-story-testing/user-story-general-information.png">  
-<img src="docs/user-story-testing/user-story-facilities.png">  
-<img src="docs/user-story-testing/user-story-pitches.png">  
-<img src="docs/user-story-testing/user-story-faq.png">  
-</details>  
-<br>
-<br>
+  
+  <details><summary>Tag Line text overlay on hero image</summary>
+  <img src="docs/user-story-testing/user-story-homepage-hero-image.png">
+  </details>  
+  <details><summary>Welcome message and about us</summary>
+  <img src="docs/user-story-testing/user-story-about.png">
+  <img src="docs/user-story-testing/user-story-general-information.png">
+  </details>  
+  <details><summary>Facilities</summary>
+  <img src="docs/user-story-testing/user-story-facilities.png">
+  </details>  
+  <details><summary>Pitches image and list items</summary>
+  <img src="docs/user-story-testing/user-story-pitches.png">
+  </details>
+  <details><summary>Frequently Asked Questions</summary>
+  <img src="docs/user-story-testing/user-story-faq.png">
+  </details>  
+  <br>
+  <br>
 
 4.  As a First Time Visitor, I want to know the price range of the campsite to decide if it is within my budget.     
 
@@ -387,12 +403,14 @@ Chrome developer tools were used to test, identify and address any issues. This 
 | Prices | Navigate to the Home Page and locate the general information section. Within this, locate the Prices section| View the Prices information | Works as expected; visitor gains knowledge of the price range for the pitches available|
 | Pitches image and list items | Navigate to the Campsite page, locate the Pitches section | View the image of the pitches and read list of types of pitches available | Works as expected; visitor gains additional knowledge regarding any additional fees, for a specific pitch type |
 
-<details><summary>Screenshot Evidence</summary>
-<img src="docs/user-story-testing/user-story-prices.png">  
-<img src="docs/user-story-testing/user-story-pitches.png">    
-</details>
-<br>
-<br>
+  <details><summary>Prices</summary>
+  <img src="docs/user-story-testing/user-story-prices.png">
+  </details>  
+  <details><summary>Pitches image and list items</summary>
+  <img src="docs/user-story-testing/user-story-pitches.png">
+  </details> 
+  <br>
+  <br>
 
 5.  As a First Time Visitor, I want to know the address of the campsite and where it is located.      
 
@@ -400,7 +418,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 |-------------|------------|---------------------|-------------------|
 | Address | Navigate to the Home Page and locate the general information section. Within this, locate the Address section| View the Address information | Works as expected; visitor gains knowledge of the address and can do additional research using Google Maps to locate on a map|
 
-<details><summary>Screenshot Evidence</summary>
+<details><summary>Address</summary>
 <img src="docs/user-story-testing/user-story-address.png">     
 </details>
 <br>
@@ -412,7 +430,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 |-------------|------------|---------------------|-------------------|
 | Pitches image and list items | Navigate to the Campsite page, locate the Pitches section | View the image of the pitches and read list of types of pitches available | Works as expected; visitor gains knowledge of the types of pitches that are available |
 
-<details><summary>Screenshot Evidence</summary>
+<details><summary>Pitches image and list items</summary>
 <img src="docs/user-story-testing/user-story-pitches.png">     
 </details>
 <br>
@@ -423,7 +441,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 |-------------|------------|---------------------|-------------------|
 | Facilities | Navigate to the Campsite page, locate the Facilities section with the font awesome icons | Locating the list of facilities and amenities that are on offer | Works as expected; visitor gains knowledge of what facilities and amendities are on offer at the campsite. |
 
-<details><summary>Screenshot Evidence</summary>
+<details><summary>Facilities</summary>
 <img src="docs/user-story-testing/user-story-facilities.png">     
 </details>
 <br>
@@ -436,12 +454,14 @@ Chrome developer tools were used to test, identify and address any issues. This 
 | Contact Form | Navigate to the Contact Page and locate the contact form, fill out all required fields and submit contact form | Data submited via contact form | Works as expected; Code Institute form submission confirmation page is displayed to the user once the form has been submitted correctly|
 | Frequently Asked Questions | Navigate to the Contact Page and locate the Frequently Asked Questions accordion. Click on the downward facing arrow to open the individual questions | Each question will open and collapse | Works as expected|
 
-<details><summary>Screenshot Evidence</summary>
-<img src="docs/user-story-testing/user-story-contact-form-2.png">  
-<img src="docs/user-story-testing/user-story-faq.png">   
-</details>
-<br>
-<br>
+<details><summary>Contact Form</summary>
+  <img src="docs/user-story-testing/user-story-contact-form-2.png">
+  </details>  
+  <details><summary>Frequently Asked Questions</summary>
+  <img src="docs/user-story-testing/user-story-faq.png">
+  </details> 
+  <br>
+  <br>
 
 9.  As a First Time Visitor, I want to be able to navigate the site easily to find information.          
 
@@ -449,7 +469,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | Navigate to any page and locate the Navigation Bar at the top of each page | Name of page is bolded and a different colour to emphasise the current page | Works as expected; vistor can easily navigate the website|
 
-<details><summary>Screenshot Evidence</summary>
+<details><summary>Navigation Bar</summary>
 <img src="docs/user-story-testing/user-story-navbar-2.png">   
 </details>
 <br>
@@ -463,7 +483,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 |-------------|------------|---------------------|-------------------|
 | Timings | Navigate to the Home Page and locate the general information section. Within this, locate the Timings section| View the information regarding the seasonal opening times as well as the check in and check out times | Works as expected; visitor gains knowledge of the operational timings for the campsite|
 
-<details><summary>Screenshot Evidence</summary>
+<details><summary>Timings</summary>
 <img src="docs/user-story-testing/user-story-timings.png">   
 </details>
 <br>
@@ -475,7 +495,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 |-------------|------------|---------------------|-------------------|
 | Pitches image and list items | Navigate to the Campsite page, locate the Pitches section | View the image of the pitches and read list of types of pitches available | Works as expected; visitor gains knowledge of the types of pitches that are available |
 
-<details><summary>Screenshot Evidence</summary>
+<details><summary>Pitches image and list items</summary>
 <img src="docs/user-story-testing/user-story-pitches.png">     
 </details>
 <br>
@@ -487,7 +507,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 |-------------|------------|---------------------|-------------------|
 | Facilities | Navigate to the Campsite page, locate the Facilities section with the font awesome icons | Locating the list of facilities and amenities that are on offer | Works as expected; visitor gains knowledge of what facilities and amendities are on offer at the campsite. |
 
-<details><summary>Screenshot Evidence</summary>
+<details><summary>Facilities</summary>
 <img src="docs/user-story-testing/user-story-facilities.png">     
 </details>
 <br>
@@ -499,7 +519,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 |-------------|------------|---------------------|-------------------|
 | Local Area| Navigate to the Local Area page | View the welcome information and scroll down the page to find additional information regarding Glyndwr Town, Llŷn Peninsula Beach, Events and Things to Do| Works as expected; vistor gains knowledge about the local area surrounding the campsite|
 
-<details><summary>Screenshot Evidence</summary>
+<details><summary>Local Area</summary>
 <img src="docs/user-story-testing/user-story-localarea.png">   
 </details>
 <br>
@@ -511,7 +531,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 |-------------|------------|---------------------|-------------------|
 | Glyndwr Town| Navigate to the Local Area page. Locate the image and heading title 'Glyndwr Town'| View the image and information regarding the local town| Works as expected; vistor gains knowledge about the local townand can view a pleasing image to depict this|
 
-<details><summary>Screenshot Evidence</summary>
+<details><summary>Glyndwr Town</summary>
 <img src="docs/user-story-testing/user-story-glyndwr-town.png">   
 </details>
 <br>
@@ -523,7 +543,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 |-------------|------------|---------------------|-------------------|
 | Llŷn Peninsula Beach| Navigate to the Local Area page. Locate the image and heading title 'Llŷn Peninsula Beach'| View the image and information regarding the local beach| Works as expected; vistor gains knowledge about the local beach and can view a pleasing image to depict this|
 
-<details><summary>Screenshot Evidence</summary>
+<details><summary>Llŷn Peninsula Beach</summary>
 <img src="docs/user-story-testing/user-story-beach.png">   
 </details>
 <br>
@@ -535,7 +555,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 |-------------|------------|---------------------|-------------------|
 | Events| Navigate to the Local Area page. Locate the image and heading title 'Events'| View the image and information regarding the events that are taking place| Works as expected; vistor gains knowledge about any events that are taking place and can view a pleasing image to depict this|
 
-<details><summary>Screenshot Evidence</summary>
+<details><summary>Events</summary>
 <img src="docs/user-story-testing/user-story-events.png">   
 </details>
 <br>
@@ -545,9 +565,9 @@ Chrome developer tools were used to test, identify and address any issues. This 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Things to Do|  Navigate to the Local Area page. Locate the image and heading title 'Things to Do'| View the image and information regarding things to do in the local area| Works as expected; vistor gains knowledge about different things they can do and different activities they can take part it and can view a pleasing image to depict this|
+| Things To Do|  Navigate to the Local Area page. Locate the image and heading title 'Things to Do'| View the image and information regarding things to do in the local area| Works as expected; vistor gains knowledge about different things they can do and different activities they can take part it and can view a pleasing image to depict this|
 
-<details><summary>Screenshot Evidence</summary>
+<details><summary>Things To Do</summary>
 <img src="docs/user-story-testing/user-story-things-to-do.png">   
 </details>
 <br>
@@ -560,16 +580,17 @@ Chrome developer tools were used to test, identify and address any issues. This 
 | Contact Form | Navigate to the Contact Page and locate the contact form, fill out all required fields and submit contact form | Data submited via contact form | Works as expected; Code Institute form submission confirmation page is displayed to the user once the form has been submitted correctly|
 | Frequently Asked Questions | Navigate to the Contact Page and locate the Frequently Asked Questions accordion. Click on the downward facing arrow to open the individual questions | Each question will open and collapse | Works as expected|
 | Footer on any page| On any page scroll down to the footer at the bottom, click on the 'Submit an Enquiry link | Directed to the contact page | Works as expected; vistor is directed to the contact page, which opens within the same window and not a new tab, as it is an internal link|
-
-<details><summary>Screenshot Evidence</summary>
-<img src="docs/user-story-testing/user-story-contact-form-2.png">  
-<img src="docs/user-story-testing/user-story-faq.png">   
-<img src="docs/user-story-testing/user-story-footer-contact-link.png">
-</details>
-<br>
-<br>
-
-
+  <details><summary>Contact Form</summary>
+  <img src="docs/user-story-testing/user-story-contact-form-2.png">
+  </details>  
+  <details><summary>Frequently Asked Questions</summary>
+  <img src="docs/user-story-testing/user-story-faq.png">
+  </details>
+  <details><summary>Footer on any page</summary>
+  <img src="docs/user-story-testing/user-story-footer-contact-link.png">
+  </details>  
+  <br>
+  <br>
 
 ### Validator Testing
 * #### HTML Validation
