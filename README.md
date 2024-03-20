@@ -230,9 +230,9 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
 
     There is some welcome text underneath this which introduces the camp site. Furthermore, there is a general section set out in three columns, which provides additional information such as the opening times, the prices and the address. User Stories covered: 3, 4, 5, 10.  
 
-    ![Welcome message](docs/user-story-testing/user-story-about.png)  
+    ![Welcome message](docs/features/feature-homepage-welcome.png)  
     <br>  
-    ![General information](docs/user-story-testing/user-story-general-information.png)  
+    ![General information](docs/features/feature-general-information.png)  
     <br>  
 
 * #### Campsite
@@ -243,30 +243,30 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
 
     The Facilities section utilises the Bootstrap grid and is fully responsive. On large devices, the content is displayed across four columns, whereas on medium and smaller devices, the content is displayed across two columns.  Font Awesome icons were used to help visualise the facilities and amenities that are available in the campsite – such as security, the toilet / shower block, wifi, a shop, etc. User Stories covered: 1, 3, 7, 12.  
     
-    ![Facilities](docs/user-story-testing/user-story-facilities.png)  
+    ![Facilities](docs/features/feature-facilities.png)  
     <br>   
 
     The pitches section is split in two – one the left-hand side there is an image of some campervans on the pitches and on the right-hand side there is an ordered list of the pitch types that are available, along with any additional charges. This is also fully responsive. On a large and medium device, the image and listed text appear side by side. On a small device, they are stacked on top of each other, with the image appearing first and the listed text appearing underneath. User Stories covered: 1, 3, 4, 6, 11.  
 
-    ![Pitches](docs/user-story-testing/user-story-pitches.png)    
+    ![Pitches](docs/features/feature-pitches.png)    
     <br>  
 
 * #### Local Area
     This page has an introductary section at the top and then utilities the Bootstrap card element that has 4 images, with accompanying text underneath. The information is broken down into four sub headings - Glyndwr Town, Llŷn Peninsula Beach, Events and Things to Do. The aim of this page is to showcase the local area in which the camp site is located, enabling visitors and potential customers to plan their holiday with activities and things to do and enjoy. The purpose of this is to reinforce a sense of community and connection between the campsite, it’s owners and the local area. Again, this page is also fully responsive. On a large and medium device, the four cards are displayed in two columns and two rows. On a small device, the four cards are displayed in one column with four rows, as they are all stacked on top of each other. User Stories covered: 3, 13, 14, 15, 16, 17.  
 
-    ![Local Area intro](docs/user-story-testing/user-story-localarea.png)    
+    ![Local Area intro](docs/features/feature-localarea.png)    
     <br>  
     
-    ![Glyndwr Town](docs/user-story-testing/user-story-glyndwr-town.png)    
+    ![Glyndwr Town](docs/features/feature-glyndwr-town.png)    
     <br> 
 
-    ![Beach](docs/user-story-testing/user-story-beach.png)    
+    ![Beach](docs/features/feature-beach.png)    
     <br> 
 
-    ![Events](docs/user-story-testing/user-story-events.png)    
+    ![Events](docs/features/feature-events.png)    
     <br> 
 
-    ![Things to do](docs/user-story-testing/user-story-things-to-do.png)    
+    ![Things to do](docs/features/feature-things-to-do.png)    
     <br>  
 
 * #### Contact
@@ -279,10 +279,10 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
     ![Contact Intro](docs/features/feature-contact-intro.png)    
     <br> 
 
-    ![Frequently asked questions](docs/user-story-testing/user-story-faq.png)    
+    ![Frequently asked questions](docs/features/feature-faq.png)    
     <br> 
 
-    ![Contact Form](docs/user-story-testing/user-story-contact-form-2.png)    
+    ![Contact Form](docs/features/feature-contact-form.png)    
     <br>
 
 ## Future Implementations
