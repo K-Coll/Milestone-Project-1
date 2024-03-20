@@ -206,30 +206,26 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
 
     The icons are also used on the Campsite page, specifically in the Facilities section to again provide a visual representation of the different facilities and amenities that are provided by the campsite. This also differentiates between the Facilities and Pitches sections breaks up the text, so it’s not two big paragraphs of listed text.  
     <br>
-    ![Fontawesome Icons Social Media](docs/features/fontawesome-icons-socialmedia.png)  
-    <br>  
+    ![Fontawesome Icons Social Media](docs/features/fontawesome-icons-socialmedia.png)    
     ![Font Awesome Icons Facilities](docs/features/font-awesome-icons-facilities.png)  
-    <br>  
 
 ## Features
-The website consists of four pages and 16 elements / features overall.
 
 ### Site Level Elements
-* There is a header at the top of the page which is comprised of the Bootstrap Nav Bar. This houses the name of the camp site and links to all the pages contained within the website to act as a navigational menu bar. It is fully responsive and collapses down to a hamburger menu on medium and small devices. There is a balanced design to this, as the menu text is horizontally centred and in line with the middle of the logo / name of the website. User Stories covered: 9.
-![Logo and navbar](docs/user-story-testing/user-story-navbar-2.png)  
+* There is a header at the top of the page which is comprised of the Bootstrap Nav Bar. This houses the name of the camp site and links to all the pages contained within the website to act as a navigational menu bar. It is fully responsive and collapses down to a hamburger menu on medium and small devices. There is a balanced design to this, as the menu text is horizontally centred and in line with the middle of the logo / name of the website. User Stories covered: 9.  
+![Logo and navbar](docs/features/feature-hr-navbar.png)  
   <br>  
 * There is a footer at the bottom of every page which houses the social media icons and an internal link that takes user directly to the contact page. The social media links for Facebook, Twitter / X and Instagram, show as icons. These are active links but they navigate to the homepages of Facebook, Twitter / X and Instagram respectively and do not link to the actual campsite, as it is a fictional business for project purposes. User Stories covered: 2, 8, 9, 18.
 
-  ![Footer](docs/user-story-testing/user-story-footer-contact-link.png)  
+  ![Footer](docs/features/feature-footer.png)  
   <br>  
-* The name of the campsite appears in the browser tab for each of the pages. User Stories covered: 3.
 
 ### Page Level Elements
 
 * #### Homepage 
     The home page is the landing page of the website and features a hero image, which is an aerial image of the camp site to show that is by the beach, underneath the navigational header. There is also a text overlay that houses the tag line for the campsite. The background image is used as decoration and is therefore added in via CSS. User Stories covered: 1, 3, 11. 
     
-    ![Hero image and text overlay](docs/user-story-testing/user-story-hompage-hero-image.png)  
+    ![Hero image and text overlay](docs/features/feature-homepage-hero-image.png)  
     <br> 
 
     There is some welcome text underneath this which introduces the camp site. Furthermore, there is a general section set out in three columns, which provides additional information such as the opening times, the prices and the address. User Stories covered: 3, 4, 5, 10.  
@@ -338,7 +334,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 | Pitches image and list items | Navigate to the Campsite page, locate the Pitches section | View the image of the pitches and read list of types of pitches available | Works as expected; visitor gains knowledge of campsite |
 
 <details><summary>Screenshot Evidence</summary>
-<img src="docs/user-story-testing/user-story-hompage-hero-image.png">  
+<img src="docs/user-story-testing/user-story-homepage-hero-image.png">  
 <img src="docs/user-story-testing/user-story-general-information.png">  
 <img src="docs/user-story-testing/user-story-facilities.png">  
 <img src="docs/user-story-testing/user-story-pitches.png">  
@@ -376,7 +372,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 | Frequently Asked Questions | Navigate to the Contact Page and locate the Frequently Asked Questions accordion. Click on the downward facing arrow to open the individual questions | Each question will open and collapse | Works as expected|
 
 <details><summary>Screenshot Evidence</summary>
-<img src="docs/user-story-testing/user-story-hompage-hero-image.png">  
+<img src="docs/user-story-testing/user-story-homepage-hero-image.png">  
 <img src="docs/user-story-testing/user-story-about.png">  
 <img src="docs/user-story-testing/user-story-general-information.png">  
 <img src="docs/user-story-testing/user-story-facilities.png">  
