@@ -382,8 +382,10 @@ Chrome developer tools were used to test, identify and address any issues. This 
   </details>  
   <details><summary>Welcome message and about us</summary>
   <img src="docs/user-story-testing/user-story-about.png">
-  <img src="docs/user-story-testing/user-story-general-information.png">
   </details>  
+  <details><summary>General Information Section</summary>
+  <img src="docs/user-story-testing/user-story-general-information.png">
+  </details>
   <details><summary>Facilities</summary>
   <img src="docs/user-story-testing/user-story-facilities.png">
   </details>  
