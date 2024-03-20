@@ -197,7 +197,7 @@ The website consists of four pages and 16 elements / features overall.
   <br>  
 * There is a footer at the bottom of every page which houses the social media icons and an internal link that takes user directly to the contact page. The social media links for Facebook, Twitter / X and Instagram, show as icons. These are active links but they navigate to the homepages of Facebook, Twitter / X and Instagram respectively and do not link to the actual campsite, as it is a fictional business for project purposes. User Stories covered: 2, 8, 9, 18.
 
-  ![Logo and navbar](docs/user-story-testing/user-story-footer-contact-link.png)  
+  ![Footer](docs/user-story-testing/user-story-footer-contact-link.png)  
   <br>  
 * The name of the campsite appears in the browser tab for each of the pages. User Stories covered: 3.
 
@@ -206,32 +206,65 @@ The website consists of four pages and 16 elements / features overall.
 * #### Homepage 
     The home page is the landing page of the website and features a hero image, which is an aerial image of the camp site to show that is by the beach, underneath the navigational header. There is also a text overlay that houses the tag line for the campsite. The background image is used as decoration and is therefore added in via CSS. User Stories covered: 1, 3, 11. 
     
-    ![Logo and navbar](docs/user-story-testing/user-story-hompage-hero-image.png)  
+    ![Hero image and text overlay](docs/user-story-testing/user-story-hompage-hero-image.png)  
     <br> 
 
     There is some welcome text underneath this which introduces the camp site. Furthermore, there is a general section set out in three columns, which provides additional information such as the opening times, the prices and the address. User Stories covered: 3, 4, 5, 10.  
 
-    ![Logo and navbar](docs/user-story-testing/user-story-about.png)  
+    ![Welcome message](docs/user-story-testing/user-story-about.png)  
     <br>  
-    ![Logo and navbar](docs/user-story-testing/user-story-general-information.png)  
+    ![General information](docs/user-story-testing/user-story-general-information.png)  
     <br>  
 
 * #### Campsite
-    This page is split into three sections – the hero image to showcase that the campsite is child and family friendly, the facilities section and the pitches section.  
+    This page is split into three sections – the hero image to showcase that the campsite is child and family friendly, the facilities section and the pitches section.
     
-    The Facilities section utilises the Bootstrap grid and is fully responsive. On large devices, the content is displayed across four columns, whereas on medium and smaller devices, the content is displayed across two columns.  Font Awesome icons were used to help visualise the facilities and amenities that are available in the campsite – such as security, the toilet / shower block, wifi, a shop, etc.  
+    ![Campsite Hero image](docs/features/feature-campsite-hero-image.png)  
+    <br>  
+
+    The Facilities section utilises the Bootstrap grid and is fully responsive. On large devices, the content is displayed across four columns, whereas on medium and smaller devices, the content is displayed across two columns.  Font Awesome icons were used to help visualise the facilities and amenities that are available in the campsite – such as security, the toilet / shower block, wifi, a shop, etc. User Stories covered: 1, 3, 7, 12.  
     
-    The pitches section is split in two – one the left-hand side there is an image of some campervans on the pitches and on the right-hand side there is an ordered list of the pitch types that are available, along with any additional charges. This is also fully responsive. On a large and medium device, the image and listed text appear side by side. On a small device, they are stacked on top of each other, with the image appearing first and the listed text appearing underneath.  
-    
+    ![Facilities](docs/user-story-testing/user-story-facilities.png)  
+    <br>   
+
+    The pitches section is split in two – one the left-hand side there is an image of some campervans on the pitches and on the right-hand side there is an ordered list of the pitch types that are available, along with any additional charges. This is also fully responsive. On a large and medium device, the image and listed text appear side by side. On a small device, they are stacked on top of each other, with the image appearing first and the listed text appearing underneath. User Stories covered: 1, 3, 4, 6, 11.  
+
+    ![Pitches](docs/user-story-testing/user-story-pitches.png)    
+    <br>  
+
 * #### Local Area
-    This page utilities the Bootstrap card element and has 4 images, with accompanying text underneath. The information is broken down into four sub headings - Glyndwr Town, Llŷn Peninsula Beach, Events and Things to Do. The aim of this page is to showcase the local area in which the camp site is located, enabling visitors and potential customers to plan their holiday with activities and things to do and enjoy. The purpose of this is to reinforce a sense of community and connection between the campsite, it’s owners and the local area. Again, this page is also fully responsive. On a large and medium device, the four cards are displayed in two columns and two rows. On a small device, the four cards are displayed in one column with four rows, as they are all stacked on top of each other.  
+    This page has an introductary section at the top and then utilities the Bootstrap card element that has 4 images, with accompanying text underneath. The information is broken down into four sub headings - Glyndwr Town, Llŷn Peninsula Beach, Events and Things to Do. The aim of this page is to showcase the local area in which the camp site is located, enabling visitors and potential customers to plan their holiday with activities and things to do and enjoy. The purpose of this is to reinforce a sense of community and connection between the campsite, it’s owners and the local area. Again, this page is also fully responsive. On a large and medium device, the four cards are displayed in two columns and two rows. On a small device, the four cards are displayed in one column with four rows, as they are all stacked on top of each other. User Stories covered: 3, 13, 14, 15, 16, 17.  
+
+    ![Local Area intro](docs/user-story-testing/user-story-localarea.png)    
+    <br>  
+    
+    ![Glyndwr Town](docs/user-story-testing/user-story-glyndwr-town.png)    
+    <br> 
+
+    ![Beach](docs/user-story-testing/user-story-beach.png)    
+    <br> 
+
+    ![Events](docs/user-story-testing/user-story-events.png)    
+    <br> 
+
+    ![Things to do](docs/user-story-testing/user-story-things-to-do.png)    
+    <br>  
 
 * #### Contact
     This page has an introductory section at the top and is then split into two columns of equal width. One the left is the FAQ section comprised of a Bootstrap accordion that is styled with custom CSS. On the right is the contact form.  
     
     This page has two purposes – one to provide customers with useful information that is often asked, and two to provide an option for users of the website to contact the owners of the campsite. This could be to provide feedback, for a general enquiry or to book a holiday for specific dates. Some elements are mandatory and are required before the form can be submitted properly.  
     
-    This page is also fully responsive. On a large and medium device, the FAQ section is on the left-hand side and the Contact Form is on the right hand side. Whereas on a small device, the sections are stacked on top of each other. There is also a horizontal rule in between the two sections when on a small device, to differentiate between the two and to tie in the branding and the theme to create an overall cohesive look.  
+    This page is also fully responsive. On a large and medium device, the FAQ section is on the left-hand side and the Contact Form is on the right hand side. Whereas on a small device, the sections are stacked on top of each other. There is also a horizontal rule in between the two sections when on a small device, to differentiate between the two and to tie in the branding and the theme to create an overall cohesive look. User Stories covered: 3, 13, 14, 15, 16, 17.    
+
+    ![Contact Intro](docs/features/feature-contact-intro.png)    
+    <br> 
+
+    ![Frequently asked questions](docs/user-story-testing/user-story-faq.png)    
+    <br> 
+
+    ![Contact Form](docs/user-story-testing/user-story-contact-form-2.png)    
+    <br>
 
 ## Future Implementations
 * Addition of an iframe to incorporate the google maps into the address section
