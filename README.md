@@ -140,16 +140,25 @@ The Oakwood Cove Camp Site Website is designed to be responsive and accessible o
 * #### Colour Scheme
     The idea for the colour scheme is to keep it fresh and bright, whilst also being easy to read and understand. I also wanted to tie the colour scheme into the grounding colours of nature to create a calming outside holistic feel, which the hues green provides.  
 
-    The overall design of the website is minimalistic; only three colours are used. This is purposeful so as not to take away focus on the images used within the website and also not the clash with them. The images used have lots of complimentary colours which creates an overall cohesive and pleasing aesthetic.  
+    The overall design of the website is minimalistic; only four main colours are used. This is purposeful so as not to take away focus on the images used within the website and also not the clash with them. The images used have lots of complimentary colours which creates an overall cohesive and pleasing aesthetic.  
 
     The design of the website to include the colour scheme is to create a gradient effect. The top of the website is lighter, the main body of the website is a mix of light and dark to create contrast, and the bottom of the website is darker.  
 
-    ![Coloors Colour Palette](docs/features/msp1-colour-palette.png)
+    <details><summary>Colour Palette</summary>
+    <img src="docs/features/msp1-colour-palette-2.png">
+    </details>
 
 * #### Contrast Checker
-    Contrast was checked for accessibility using WebAIM's contrast checker - https://webaim.org/resources/contrastchecker/. The contrast for the main body of the website is 10.07:1.
+    Contrast was checked for accessibility using WebAIM's contrast checker - https://webaim.org/resources/contrastchecker/.  
+    The contrast for the main body of the website is 10.07:1. This is also the contrast for the footer, as it uses the same colours although the footer is light text on dark background.  
+    The contrast for the Nav Bar is 7.24:1.
 
-    ![Contrast Checker Screenshot](docs/features/contrast-checker.png)
+    <details><summary>Contrast Checker - Main Body / Footer</summary>
+    <img src="docs/features/contrast-checker-mainbody.png">
+    </details>
+    <details><summary>Contrast Checker - Nav Bar</summary>
+    <img src="docs/features/contrast-checker-navbar.png">
+    </details>
 
 * #### Typography
     Three fonts are used for this website.  
@@ -485,7 +494,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 
 ### Validator Testing
 * #### HTML Validation
-    The W3C HTML Markup Validator was used to validate the HTML code of the website. All HTML validation was successful, with no errors showing. However, for the homepage, campsite and local area pages there were warnings. This was due to the use of the headings being out of order. This was a learning I took away from this project and from web desing and development overall. With additional time, I would have re-ordered the headings and I plan to do this as part of the future development of this website.
+    The W3C HTML Markup Validator was used to validate the HTML code of the website. All HTML validation was successful, with no errors showing. However, for the homepage, campsite and local area pages there were warnings. This was due to the use of the headings being out of order. This was a learning I took away from this project and from web desing and development overall. I was able to re-order some headings and style them with targted CSS. With additional time, I would have fixed this and re-ordered all the headings. I plan to do this as part of the future development of this website.
 
     <details><summary>Home</summary>
     <img src="docs/validation/html-validator-homepage.png">
