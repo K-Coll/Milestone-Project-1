@@ -235,7 +235,7 @@ I have tried to ensure the website is as accessible as possible by:
 * Using a cohesive design scheme and colour contrasts to make sure the text is easy to read.
 * Using clear navigation.  
 
-The WAVE WebAIM web accessibility evaluatuon tool was used to ensure the website meets high accessibility standards. All pages of the website passsed with zero errors.
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website meets high accessibility standards. All pages of the website passsed with zero errors.
 
   <details><summary>Wave Home Page</summary>
   <img src="docs/validation/wave-home.png">
@@ -536,9 +536,9 @@ Chrome developer tools were used to test, identify and address any issues. This 
     </details>
 
 ### Lighthouse
-I tested my website using Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and SEO (seacrh enginer optimisation). Initially, the performance score was the lowest at 85. This was due to the size of the images I was using, even though I had already compressed them down. I then converted the format of the images from jpg to webp format. This improved the performance quite a lot. The overall performance is: 92, 94, 100, 100.
+I tested my website using Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and SEO (seacrh enginer optimisation). Initially, the performance score was the lowest at 85. This was due to the size of the images I was using, even though I had already compressed them down. I then converted the format of the images from jpg to webp format. This improved the performance quite a lot. The overall performance is: 93, 100, 100, 100.
 
-![Lighthouse Testing](docs/validation/lighthouse-performance.png)
+![Lighthouse Testing](docs/validation/lighthouse-testing.png)
 
 ### Full Testing on Devices and Browsers
   The website was tested and functioned / performed well on Chrome, Edge and Safari.  
@@ -578,11 +578,11 @@ The internal links feature in the menu navigation bar, as well as the footer –
 * If the form is completed properly, you will see the following message:  
     ![form submit message](docs/validation/form-correct.png)  
 * If you try to submit without a first name or last name you will see the following message:  
-    ![fill in name message](docs/validation/form-name-required.png)  
+    ![fill in name message](docs/validation/validation-contact-form-name-required.png)  
 * If you try to submit without a valid ‘@’ email address, you will see the following message:  
-    ![fill in email message](docs/validation/form-email-required.png)  
+    ![fill in email message](docs/validation/validation-contact-form-email-required.png)  
 * If you try to submit a blank message without a description for your enquiry, you will see the following message:  
-    ![submit enquiry message](docs/validation/form-equiry-required.png)  
+    ![submit enquiry message](docs/validation/validation-contact-form-message-required.png)  
 
 ### Solved Bugs
 1.	Nav Bar Section  
