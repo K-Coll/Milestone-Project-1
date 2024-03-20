@@ -286,7 +286,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 | Footer on any page| On any page scroll down to the footer at the bottom, click on the 'Submit an Enquiry link | Directed to the contact page | Works as expected; vistor is directed to the contact page, which opens within the same window and not a new tab, as it is an internal link|
 
 <details><summary>Screenshot Evidence</summary>
-<img src="docs/user-story-testing/user-story-contact-form.png">  
+<img src="docs/user-story-testing/user-story-contact-form-2.png">  
 <img src="docs/user-story-testing/user-story-contact-form-submit.png">  
 <img src="docs/user-story-testing/user-story-footer-contact-link.png">  
 </details>  
@@ -374,7 +374,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 | Frequently Asked Questions | Navigate to the Contact Page and locate the Frequently Asked Questions accordion. Click on the downward facing arrow to open the individual questions | Each question will open and collapse | Works as expected|
 
 <details><summary>Screenshot Evidence</summary>
-<img src="docs/user-story-testing/user-story-contact-form.png">  
+<img src="docs/user-story-testing/user-story-contact-form-2.png">  
 <img src="docs/user-story-testing/user-story-faq.png">   
 </details>
 <br>
@@ -499,7 +499,7 @@ Chrome developer tools were used to test, identify and address any issues. This 
 | Footer on any page| On any page scroll down to the footer at the bottom, click on the 'Submit an Enquiry link | Directed to the contact page | Works as expected; vistor is directed to the contact page, which opens within the same window and not a new tab, as it is an internal link|
 
 <details><summary>Screenshot Evidence</summary>
-<img src="docs/user-story-testing/user-story-contact-form.png">  
+<img src="docs/user-story-testing/user-story-contact-form-2.png">  
 <img src="docs/user-story-testing/user-story-faq.png">   
 <img src="docs/user-story-testing/user-story-footer-contact-link.png">
 </details>
